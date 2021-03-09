@@ -1,0 +1,99 @@
+{
+	"common": {
+		"name": "myfirsttest",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "MyFirstTest",
+		"titleLang": {
+			"en": "MyFirstTest",
+			"de": "MyFirstTest",
+			"ru": "MyFirstTest",
+			"pt": "MyFirstTest",
+			"nl": "MyFirstTest",
+			"fr": "MyFirstTest",
+			"it": "MyFirstTest",
+			"es": "MyFirstTest",
+			"pl": "MyFirstTest",
+			"zh-cn": "MyFirstTest"
+		},
+		"desc": {
+			"en": "my first adapter ever",
+			"de": "my first adapter ever",
+			"ru": "my first adapter ever",
+			"pt": "my first adapter ever",
+			"nl": "my first adapter ever",
+			"fr": "my first adapter ever",
+			"it": "my first adapter ever",
+			"es": "my first adapter ever",
+			"pl": "my first adapter ever",
+			"zh-cn": "my first adapter ever"
+		},
+		"authors": [
+			"Rumbo74 <rumbo74@gmx.de>"
+		],
+		"keywords": [
+			"test",
+			"first"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "myfirsttest.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Rumbo74/ioBroker.myfirsttest/master/admin/myfirsttest.png",
+		"readme": "https://github.com/Rumbo74/ioBroker.myfirsttest/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "iot-systems",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": [
+		{
+			"_id": "info",
+			"type": "channel",
+			"common": {
+				"name": "Information"
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.connection",
+			"type": "state",
+			"common": {
+				"role": "indicator.connected",
+				"name": "Device or service connected",
+				"type": "boolean",
+				"read": true,
+				"write": false,
+				"def": false
+			},
+			"native": {}
+		}
+	]
+}
