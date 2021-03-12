@@ -42,7 +42,7 @@
   },
   "main": "main.js",
   "scripts": {
-    "test": "./test/all.js",
+    "test": "node test/all.js",
     "check": "tsc --noEmit -p tsconfig.check.json",
     "lint": "eslint"
   },
