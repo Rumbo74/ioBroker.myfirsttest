@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+serveFiles	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function serveFiles(request, response) {$/;"	function	line:222
+openSocket	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function openSocket(socket){$/;"	function	line:228
+write	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function write() \/\/for writing$/;"	function	line:258
+read	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function read () \/\/ for reading$/;"	function	line:266
+write	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function write() \/\/for writing$/;"	function	line:294
+read	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function read () \/\/ for reading$/;"	function	line:302
+write	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function write() \/\/for writing$/;"	function	line:354
+read	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function read () \/\/ for reading$/;"	function	line:362
+listSerial	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^	listSerial() {$/;"	function	line:389
+switch	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^      		switch (esp3packet.type) {$/;"	function	line:440
+toHex	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function toHex(byte) {$/;"	function	line:517
+toHex	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function toHex(byte) {$/;"	function	line:517
+dec2hexString	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function dec2hexString(dec) {$/;"	function	line:521
+dec2hexString	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function dec2hexString(dec) {$/;"	function	line:521
+parseMessage	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^async function parseMessage(data) {$/;"	function	line:526
+switch	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^  switch (esp3packet.type) {$/;"	function	line:530
+serialport	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^var serialport = require('serialport');$/;"	variable	line:591
+portName	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^var portName = "\/dev\/ttyUSB0";$/;"	variable	line:592
+onOpen	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function onOpen(){$/;"	function	line:602
+onOpen	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function onOpen(){$/;"	function	line:602
+onData	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function onData(data){$/;"	function	line:606
+onData	/home/michael/sshfs/ioBroker.myfirsttest/test/all.js	/^function onData(data){$/;"	function	line:606

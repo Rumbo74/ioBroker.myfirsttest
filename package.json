@@ -17,7 +17,10 @@
     "url": "https://github.com/Rumbo74/ioBroker.myfirsttest"
   },
   "dependencies": {
-    "@iobroker/adapter-core": "^2.4.0"
+    "@iobroker/adapter-core": "^2.4.0",
+    "serialport": "^9.0.7",
+    "shelljs": "^0.8.4",
+    "usb": "^1.6.5"
   },
   "devDependencies": {
     "@iobroker/testing": "^2.4.2",
