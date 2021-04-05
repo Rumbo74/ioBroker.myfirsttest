@@ -931,6 +931,7 @@ array-sort	package-lock.json	/^    "array-sort": {$/;"	f
 array-unique	package-lock.json	/^            "array-unique": "^0.3.2",$/;"	f
 array-unique	package-lock.json	/^        "array-unique": "^0.3.2",$/;"	f
 array-unique	package-lock.json	/^    "array-unique": {$/;"	f
+assert	test_alt/firstTests.js	/^var assert = require('chai').assert;$/;"	v
 assertion-error	package-lock.json	/^        "assertion-error": "^1.1.0",$/;"	f
 assertion-error	package-lock.json	/^    "assertion-error": {$/;"	f
 assign-symbols	package-lock.json	/^        "assign-symbols": "^1.0.0",$/;"	f
@@ -1727,9 +1728,9 @@ case	lib/definitions/eep/X1-01/X1-01-02.json	/^    "case":[$/;"	f
 chai	package-lock.json	/^        "chai": ">= 2.1.2 < 5"$/;"	f
 chai	package-lock.json	/^        "chai": "^4.0.0",$/;"	f
 chai	package-lock.json	/^        "chai": "^4.2.0",$/;"	f
-chai	package-lock.json	/^        "chai": "^4.3.3",$/;"	f
+chai	package-lock.json	/^        "chai": "^4.3.4",$/;"	f
 chai	package-lock.json	/^    "chai": {$/;"	f
-chai	package.json	/^    "chai": "^4.3.3",$/;"	f
+chai	package.json	/^    "chai": "^4.3.4",$/;"	f
 chai-as-promised	package-lock.json	/^        "chai-as-promised": "^7.1.1",$/;"	f
 chai-as-promised	package-lock.json	/^    "chai-as-promised": {$/;"	f
 chai-as-promised	package.json	/^    "chai-as-promised": "^7.1.1",$/;"	f
@@ -1816,7 +1817,7 @@ common	io-package.json	/^			"common": {$/;"	f
 common	io-package.json	/^	"common": {$/;"	f
 compact	io-package.json	/^		"compact": true,$/;"	f
 compileOnSave	tsconfig.json	/^	"compileOnSave": true,$/;"	f
-compilerOptions	test/tsconfig.json	/^	"compilerOptions": {$/;"	f
+compilerOptions	test_alt/tsconfig.json	/^	"compilerOptions": {$/;"	f
 compilerOptions	tsconfig.check.json	/^	"compilerOptions": {},$/;"	f
 compilerOptions	tsconfig.json	/^	"compilerOptions": {$/;"	f
 component-emitter	package-lock.json	/^        "component-emitter": "^1.2.1",$/;"	f
@@ -2362,7 +2363,7 @@ debug	package-lock.json	/^        "debug": "^4.3.1"$/;"	f
 debug	package-lock.json	/^        "debug": "^4.3.1",$/;"	f
 debug	package-lock.json	/^        "debug": {$/;"	f
 debug	package-lock.json	/^    "debug": {$/;"	f
-dec2hexString	test/all.js	/^function dec2hexString(dec) {$/;"	f
+dec2hexString	test_alt/all_alt.js	/^function dec2hexString(dec) {$/;"	f
 decamelize	package-lock.json	/^        "decamelize": "^1.1.1",$/;"	f
 decamelize	package-lock.json	/^        "decamelize": "^4.0.0",$/;"	f
 decamelize	package-lock.json	/^        "decamelize": {$/;"	f
@@ -2770,6 +2771,8 @@ expand-template	package-lock.json	/^    "expand-template": {$/;"	f
 expand-tilde	package-lock.json	/^        "expand-tilde": "^2.0.0",$/;"	f
 expand-tilde	package-lock.json	/^        "expand-tilde": "^2.0.2",$/;"	f
 expand-tilde	package-lock.json	/^    "expand-tilde": {$/;"	f
+expect	test/firstTests.js	/^var expect = require('chai').expect;$/;"	v
+expect	test_alt/firstTests.js	/^var expect = require('chai').expect;$/;"	v
 expert	.create-adapter.json	/^	"expert": "yes",$/;"	f
 ext	package-lock.json	/^        "ext": "^1.1.2"$/;"	f
 ext	package-lock.json	/^    "ext": {$/;"	f
@@ -2785,7 +2788,7 @@ extend-shallow	package-lock.json	/^        "extend-shallow": {$/;"	f
 extend-shallow	package-lock.json	/^    "extend-shallow": {$/;"	f
 extends	.eslintrc.json	/^	"extends": [$/;"	f
 extends	admin/tsconfig.json	/^	"extends": "..\/tsconfig.json",$/;"	f
-extends	test/tsconfig.json	/^	"extends": "..\/tsconfig.json",$/;"	f
+extends	test_alt/tsconfig.json	/^	"extends": "..\/tsconfig.json",$/;"	f
 extends	tsconfig.check.json	/^	"extends": ".\/tsconfig.json",$/;"	f
 extglob	package-lock.json	/^        "extglob": "^2.0.4",$/;"	f
 extglob	package-lock.json	/^    "extglob": {$/;"	f
@@ -3091,7 +3094,7 @@ import-fresh	package-lock.json	/^    "import-fresh": {$/;"	f
 imurmurhash	package-lock.json	/^        "imurmurhash": "^0.1.4",$/;"	f
 imurmurhash	package-lock.json	/^    "imurmurhash": {$/;"	f
 include	admin/tsconfig.json	/^	"include": [$/;"	f
-include	test/tsconfig.json	/^	"include": [$/;"	f
+include	test_alt/tsconfig.json	/^	"include": [$/;"	f
 include	tsconfig.check.json	/^	"include": [$/;"	f
 include	tsconfig.json	/^	"include": [$/;"	f
 indent	.eslintrc.json	/^		"indent": [$/;"	f
@@ -3502,7 +3505,6 @@ integrity	package-lock.json	/^      "integrity": "sha512-LaNjtRWUBY++zB5nE\/Nwca
 integrity	package-lock.json	/^      "integrity": "sha512-LwZy+p3SFs1Pytd\/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==",$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==",$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B\/t8dPvcjhKMmlfnP47EzQ=="$/;"	f
-integrity	package-lock.json	/^      "integrity": "sha512-MPSLOZwxxnA0DhLE84klnGPojWFK5KuhP7\/j5dTsxpr2S3XlkqJP5WbyYl1gCTWvG2Z5N+HD4F472WsbEZL6Pw==",$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO\/k9V3hjVUF\/zwW7KBVdSK4gIt\/bzwS9MbR5qob+F5jusZsb0YQK2A==",$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo\/RPgnr1\/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==",$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-MWikgl9n9M3w+bpsY3He8L+w9eF9338xRl8IAO5viDizwSzziFEyUzo2xrrloB64ADbTf8uA8vRqqttDTOmccg==",$/;"	f
@@ -3744,6 +3746,7 @@ integrity	package-lock.json	/^      "integrity": "sha512-yD5BHCe7quCgBph4rMQ+0Kk
 integrity	package-lock.json	/^      "integrity": "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==",$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==",$/;"	f
+integrity	package-lock.json	/^      "integrity": "sha512-yS5H68VYOCtN1cjfwumDSuzn\/9c+yza4f3reKXlE5rUg7SFcCEy90gJvydNgOYtblyf4Zi6jIWRnXOgErta0KA==",$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-ydoLbgVQQPxWrwbe3Fhh4XnZexbkEQAC6M\/qgRTzjnKvTjrD61CJNxLc3vyDaAPI9bJIhTiI7eTX3JB5jJv8Hg==",$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-yjNnPr315\/FjS4zIsUxYguYUPP2e1NK4d7E7ZOLiyYCcbFBiTMyID+2wvm2w6+pZ\/odMA7cRkjhsPbltwBOrLg==",$/;"	f
 integrity	package-lock.json	/^      "integrity": "sha512-zAoAQiudy+r5SvnSw3KJy5os\/oRJYHzrzja\/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==",$/;"	f
@@ -4174,7 +4177,7 @@ no-console	.eslintrc.json	/^		"no-console": "off",$/;"	f
 no-trailing-spaces	.eslintrc.json	/^		"no-trailing-spaces": "error",$/;"	f
 no-var	.eslintrc.json	/^		"no-var": "error",$/;"	f
 noEmit	tsconfig.json	/^		"noEmit": true,$/;"	f
-noImplicitAny	test/tsconfig.json	/^		"noImplicitAny": false$/;"	f
+noImplicitAny	test_alt/tsconfig.json	/^		"noImplicitAny": false$/;"	f
 noImplicitAny	tsconfig.json	/^		"noImplicitAny": false,$/;"	f
 node	.eslintrc.json	/^		"node": true,$/;"	f
 node	package-lock.json	/^        "node": "*"$/;"	f
@@ -4871,6 +4874,8 @@ npmlog	package-lock.json	/^    "npmlog": {$/;"	f
 number-is-nan	package-lock.json	/^            "number-is-nan": "^1.0.0"$/;"	f
 number-is-nan	package-lock.json	/^        "number-is-nan": "^1.0.0"$/;"	f
 number-is-nan	package-lock.json	/^    "number-is-nan": {$/;"	f
+numbers	test/firstTests.js	/^var numbers = [1, 2, 3, 4, 5];$/;"	v
+numbers	test_alt/firstTests.js	/^var numbers = [1, 2, 3, 4, 5];$/;"	v
 object-assign	package-lock.json	/^        "object-assign": "^4.1.0",$/;"	f
 object-assign	package-lock.json	/^    "object-assign": {$/;"	f
 object-copy	package-lock.json	/^        "object-copy": "^0.1.0"$/;"	f
@@ -4896,8 +4901,8 @@ object.pick	package-lock.json	/^    "object.pick": {$/;"	f
 object.reduce	package-lock.json	/^        "object.reduce": "^1.0.0",$/;"	f
 object.reduce	package-lock.json	/^    "object.reduce": {$/;"	f
 objects	io-package.json	/^	"objects": [],$/;"	f
-onData	test/all.js	/^function onData(data){$/;"	f
-onOpen	test/all.js	/^function onOpen(){$/;"	f
+onData	test_alt/all_alt.js	/^function onData(data){$/;"	f
+onOpen	test_alt/all_alt.js	/^function onOpen(){$/;"	f
 once	package-lock.json	/^            "once": "^1.3.1"$/;"	f
 once	package-lock.json	/^        "once": "^1.3.0",$/;"	f
 once	package-lock.json	/^        "once": "^1.3.1"$/;"	f
@@ -4989,7 +4994,7 @@ plugins	.eslintrc.json	/^	"plugins": [],$/;"	f
 pm10a	lib/definitions/eep/A5-09/A5-09-07.json	/^        "pm10a": {$/;"	f
 pm1a	lib/definitions/eep/A5-09/A5-09-07.json	/^        "pm1a": {$/;"	f
 pm2_5a	lib/definitions/eep/A5-09/A5-09-07.json	/^        "pm2_5a": {$/;"	f
-portName	test/all.js	/^var portName = "\/dev\/ttyUSB0";$/;"	v
+portName	test_alt/all_alt.js	/^var portName = "\/dev\/ttyUSB0";$/;"	v
 posix-character-classes	package-lock.json	/^        "posix-character-classes": "^0.1.0",$/;"	f
 posix-character-classes	package-lock.json	/^    "posix-character-classes": {$/;"	f
 prebuild-install	package-lock.json	/^        "prebuild-install": "^5.3.3"$/;"	f
@@ -5215,7 +5220,7 @@ replace-ext	package-lock.json	/^    "replace-ext": {$/;"	f
 replace-homedir	package-lock.json	/^        "replace-homedir": "^1.0.0",$/;"	f
 replace-homedir	package-lock.json	/^    "replace-homedir": {$/;"	f
 repository	package.json	/^  "repository": {$/;"	f
-require	test/mocharc.custom.json	/^	"require": [$/;"	f
+require	test_alt/mocharc.custom.json	/^	"require": [$/;"	f
 require-directory	package-lock.json	/^            "require-directory": "^2.1.1",$/;"	f
 require-directory	package-lock.json	/^        "require-directory": "^2.1.1",$/;"	f
 require-directory	package-lock.json	/^    "require-directory": {$/;"	f
@@ -5429,7 +5434,7 @@ resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/ca
 resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/camelcase\/-\/camelcase-3.0.0.tgz",$/;"	f
 resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/camelcase\/-\/camelcase-6.2.0.tgz",$/;"	f
 resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/chai-as-promised\/-\/chai-as-promised-7.1.1.tgz",$/;"	f
-resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/chai\/-\/chai-4.3.3.tgz",$/;"	f
+resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/chai\/-\/chai-4.3.4.tgz",$/;"	f
 resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/chalk\/-\/chalk-2.4.2.tgz",$/;"	f
 resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/chalk\/-\/chalk-4.1.0.tgz",$/;"	f
 resolved	package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/check-error\/-\/check-error-1.0.2.tgz",$/;"	f
@@ -6255,7 +6260,7 @@ serialize-javascript	package-lock.json	/^    "serialize-javascript": {$/;"	f
 serialport	package-lock.json	/^        "serialport": "^9.0.7",$/;"	f
 serialport	package-lock.json	/^    "serialport": {$/;"	f
 serialport	package.json	/^    "serialport": "^9.0.7",$/;"	f
-serialport	test/all.js	/^var serialport = require('serialport');$/;"	v
+serialport	test_alt/all_alt.js	/^var serialport = require('serialport');$/;"	v
 set-blocking	package-lock.json	/^        "set-blocking": "^2.0.0",$/;"	f
 set-blocking	package-lock.json	/^        "set-blocking": "~2.0.0"$/;"	f
 set-blocking	package-lock.json	/^    "set-blocking": {$/;"	f
@@ -6588,6 +6593,8 @@ shortcut	lib/definitions/eep/X1-01/X1-01-02.json	/^                "shortcut": "
 shortcut	lib/definitions/eep/X1-01/X1-01-02.json	/^                "shortcut": "SLSW",$/;"	f
 shortcut	lib/definitions/eep/X1-01/X1-01-02.json	/^                "shortcut": "SP",$/;"	f
 shortcut	lib/definitions/eep/X1-01/X1-01-02.json	/^                "shortcut": "TMP",$/;"	f
+should	test/firstTests.js	/^var should = require('chai').should();$/;"	v
+should	test_alt/firstTests.js	/^var should = require('chai').should();$/;"	v
 signal-exit	package-lock.json	/^        "signal-exit": "^3.0.0",$/;"	f
 signal-exit	package-lock.json	/^    "signal-exit": {$/;"	f
 simple-concat	package-lock.json	/^        "simple-concat": "^1.0.0"$/;"	f
@@ -6902,7 +6909,7 @@ telegram	lib/definitions/eep/TF-14/TF-14-05.json	/^  "telegram": "4BS",$/;"	f
 telegram	lib/definitions/eep/X1-01/X1-01-01.json	/^    "telegram": "RPS",$/;"	f
 telegram	lib/definitions/eep/X1-01/X1-01-02.json	/^    "telegram": "4BS",$/;"	f
 telegram_type	lib/definitions/codes.json	/^  "telegram_type": {$/;"	f
-test	package.json	/^    "test": "node test\/all.js",$/;"	f
+test	package.json	/^    "test": "mocha",$/;"	f
 text-table	package-lock.json	/^        "text-table": "^0.2.0",$/;"	f
 text-table	package-lock.json	/^    "text-table": {$/;"	f
 through2	package-lock.json	/^        "through2": "^2.0.0",$/;"	f
@@ -6931,7 +6938,7 @@ to-regex-range	package-lock.json	/^        "to-regex-range": {$/;"	f
 to-regex-range	package-lock.json	/^    "to-regex-range": {$/;"	f
 to-through	package-lock.json	/^        "to-through": "^2.0.0",$/;"	f
 to-through	package-lock.json	/^    "to-through": {$/;"	f
-toHex	test/all.js	/^function toHex(byte) {$/;"	f
+toHex	test_alt/all_alt.js	/^function toHex(byte) {$/;"	f
 tools	.create-adapter.json	/^	"tools": [$/;"	f
 tsa	lib/definitions/eep/A5-09/A5-09-0A.json	/^        "tsa": {$/;"	f
 tsc	package-lock.json	/^        "tsc": "bin\/tsc",$/;"	f
@@ -8086,7 +8093,7 @@ version	package-lock.json	/^      "version": "4.2.3",$/;"	f
 version	package-lock.json	/^      "version": "4.2.6",$/;"	f
 version	package-lock.json	/^      "version": "4.3.0",$/;"	f
 version	package-lock.json	/^      "version": "4.3.1",$/;"	f
-version	package-lock.json	/^      "version": "4.3.3",$/;"	f
+version	package-lock.json	/^      "version": "4.3.4",$/;"	f
 version	package-lock.json	/^      "version": "4.4.1",$/;"	f
 version	package-lock.json	/^      "version": "4.4.2",$/;"	f
 version	package-lock.json	/^      "version": "5.0.0",$/;"	f
@@ -8142,7 +8149,7 @@ vinyl-fs	package-lock.json	/^        "vinyl-fs": "^3.0.0"$/;"	f
 vinyl-fs	package-lock.json	/^    "vinyl-fs": {$/;"	f
 vinyl-sourcemap	package-lock.json	/^        "vinyl-sourcemap": "^1.1.0"$/;"	f
 vinyl-sourcemap	package-lock.json	/^    "vinyl-sourcemap": {$/;"	f
-watch-files	test/mocharc.custom.json	/^	"watch-files": [$/;"	f
+watch-files	test_alt/mocharc.custom.json	/^	"watch-files": [$/;"	f
 which	package-lock.json	/^        "which": "2.0.2",$/;"	f
 which	package-lock.json	/^        "which": "^1.2.14"$/;"	f
 which	package-lock.json	/^        "which": "^2.0.1"$/;"	f
