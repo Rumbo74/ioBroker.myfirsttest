@@ -13,7 +13,7 @@ assert.lengthOf(numbers, 5, 'array contains 5 numbers');
 //
 // var assert = require('assert');
 describe('Array', function() {
-  describe('#indexOf()    firstTests', function() {
+  describe('#indexOf()   firstTests', function() {
     it('is array of numbers', function() {
       assert.isArray(numbers, 'is array of numbers');
     });
