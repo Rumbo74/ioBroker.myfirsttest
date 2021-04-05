@@ -7,5 +7,4 @@ on:
   pull_request:
 
 jobs:
-  auto-merge:#
-  
+  auto-merge:
