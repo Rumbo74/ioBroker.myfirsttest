@@ -527,6 +527,19 @@ async function parseMessage(data) {
   console.log(data.toString('hex'));
   const esp3packet = new ESP3Packet(data);
 
+
+	console.log(esp3packet.dataLength);
+	console.log(esp3packet.optionalLength);
+	console.log(esp3packet.type);
+	console.log(esp3packet.data);
+	console.log(esp3packet.optionalData);
+
+	// console.log(esp3packet.dataLength.toString('hex'));
+	// console.log(esp3packet.optionalLength.toString('hex'));
+	// console.log(esp3packet.type.toString('hex'));
+	// console.log(esp3packet.data.toString('hex'));
+	// console.log(esp3packet.optionalData.toString('hex'));
+
   switch (esp3packet.type) {
     case 1: // RADIO_ERP1
     {
@@ -551,12 +564,12 @@ async function parseMessage(data) {
     }
     case 2: //RESPONSE
     {
-      //new HandleType2(this, ESP3Packet);
+      new HandleType2(this, data);
       console.log('Packet type 2 received: ' + toHex(esp3packet.type));
       break;
     }
     case 3: //RADIO_SUB_TEL
-      console.log('Radio sub telegram received.');
+      console.log('Radio sub telegram received.'); 
       break;
     case 4: //EVENT
       console.log('Event message received.');
