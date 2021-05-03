@@ -49,7 +49,7 @@ describe('running on my TestPi?', function() {
     describe('test instance of connectionFGW', function() {
         describe('make instance', function() {
             const con = new connectionFGW();
-            console.log(con)
+            //console.log(con)
             it('should return "test"', function() {
               assert.equal(con.testing, "test" );
               con.testing = "hallo"
@@ -58,18 +58,50 @@ describe('running on my TestPi?', function() {
               assert.equal(con.testing, "hallo" );
             });
         });
+        describe('make instance with new attributes', function() {
+            const con = new connectionFGW( "/dev/ttyS007", 123 );
+            console.log(con)
+            it('should return "/dev/ttyS007"', function() {
+              assert.equal(con.path, "/dev/ttyS007" );
+            });
+            it('should return 123', function() {
+              assert.equal(con.baudRate, 123 );
+            });
+        });
+        // check portName
+        // ----------------
         describe('make instance with standard port info', function() {
             const con = new connectionFGW();
-            console.log(con)
-            it('should return "/dev/ttyStandard"', function() {
-              assert.equal(con.path, "/dev/ttyStandard" );
+            //console.log(con)
+            it('should return "/dev/ttyS0"', function() {
+              assert.equal(con.path, "/dev/ttyS0" );
             });
         });
         describe('make instance with port info "/dev/ttyS000"', function() {
-            const con1 = new connectionFGW( "/dev/ttyS000");
-            console.log(con1)
+            const con1 = new connectionFGW();
+            //console.log(con1)
+            con1.path = "/dev/ttyS000"
+            //console.log(con1)
             it('should return "/dev/ttyS000"', function() {
               assert.equal(con1.path, "/dev/ttyS000" );
+            });
+        });
+        // check baudRate
+        // ----------------
+        describe('make instance with standard baudRate', function() {
+            const con2 = new connectionFGW();
+            //console.log(con2)
+            it('should return 57600', function() {
+              assert.equal(con2.baudRate, 57600 );
+            });
+        });
+        describe('make instance with baudRate 9600', function() {
+            const con3 = new connectionFGW();
+            //console.log(con3)
+            con3.baudRate = 9600
+            //console.log(con3)
+            it('should return 9600', function() {
+              assert.equal(con3.baudRate, 9600 );
             });
         });
     });
@@ -77,16 +109,6 @@ describe('running on my TestPi?', function() {
 
 
 
-
-
-//
-//Laptop:
-//[    7.458101] audit: type=1400 audit(1619544520.111:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=782 comm="apparmor_parser"
-//michael@HP-Lappi:~/Schreibtisch/ioBroker Eltako FGW/ioBroker.myfirsttest$ dmesg|grep tty
-//[    0.000000] printk: console [tty0] enabled
-//[    2.590093] 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
-//[    2.612915] 0000:00:16.3: ttyS4 at I/O 0x5050 (irq = 17, base_baud = 115200) is a 16550A
-//
 
 
 
