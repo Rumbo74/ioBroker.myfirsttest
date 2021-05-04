@@ -6,6 +6,12 @@
 const parser = require('../lib/tools/ESP2Packet');
 var assert = require('assert');
 
+// information of file
+describe('in file t1_esp2.js #########################################################', function() {
+	it('for information', function(done) {
+		done();
+	});
+});
 
 // testing - mocha working?
 describe('mocha working?', function() {
