@@ -17,7 +17,7 @@ describe('in file t2_connection.js #############################################
 
 // testing - running on my TestPi?
 describe('running on my TestPi?', function() {
-    if (fs.existsSync('/etc/file')) {
+    if (fs.existsSync('/var/local/testPi')) {
 	    it('running on my TestPi', function(done) {
             testConnection = true;
 	        done();
@@ -120,6 +120,7 @@ describe('Use connectionFGW to open connection', function() {
         it('try open', function(done) {
             describe('open connection', function() {
                 const con = new connectionFGW();
+                con.path = "/dev/ttyUSB0"
                 //console.log(con)
                 con.openConnection()
             });
