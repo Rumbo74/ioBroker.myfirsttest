@@ -7,6 +7,7 @@ const connectionFGW = require('../lib/tools/connectionFGW');
 var assert = require('assert');
 var fs = require('fs');
 var testConnection = false;     // preset not too test the connection live
+const logger = require('../lib/tools/myLogging');
 
 // information of file
 describe('in file t2_connection.js #########################################################', function() {
@@ -35,7 +36,7 @@ describe('running on my TestPi?', function() {
 //    describe('test Singleton of connection', function() {
 //        describe('first instance', function() {
 //            const singleton1 = connectionFGW;
-//            console.log(singleton1)
+//            logger.info(singleton1)
 //            it('should return "test"', function() {
 //              assert.equal(singleton1.testing, "test" );
 //              singleton1.testing = "hallo"
@@ -43,7 +44,7 @@ describe('running on my TestPi?', function() {
 //        });
 //        describe('second instance', function() {
 //            const singleton123 = connectionFGW;
-//            console.log(singleton123)
+//            logger.info(singleton123)
 //            it('should return "hallo"', function() {
 //              assert.equal(singleton123.testing, "hallo" );
 //            });
@@ -55,7 +56,7 @@ describe('running on my TestPi?', function() {
 describe('test instance of connectionFGW', function() {
     describe('make instance', function() {
         const con = new connectionFGW();
-        //console.log(con)
+        //logger.info(con)
         it('should return "test"', function() {
           assert.equal(con.testing, "test" );
           con.testing = "hallo"
@@ -66,7 +67,7 @@ describe('test instance of connectionFGW', function() {
     });
     describe('make instance with new attributes', function() {
         const con = new connectionFGW( "/dev/ttyS007", 123 );
-        //console.log(con)
+        //logger.info(con)
         it('should return "/dev/ttyS007"', function() {
           assert.equal(con.path, "/dev/ttyS007" );
         });
@@ -78,16 +79,16 @@ describe('test instance of connectionFGW', function() {
     // ----------------
     describe('make instance with standard port info', function() {
         const con = new connectionFGW();
-        //console.log(con)
+        //logger.info(con)
         it('should return "/dev/ttyS0"', function() {
           assert.equal(con.path, "/dev/ttyS0" );
         });
     });
     describe('make instance with port info "/dev/ttyS000"', function() {
         const con1 = new connectionFGW();
-        //console.log(con1)
+        //logger.info(con1)
         con1.path = "/dev/ttyS000"
-        //console.log(con1)
+        //logger.info(con1)
         it('should return "/dev/ttyS000"', function() {
           assert.equal(con1.path, "/dev/ttyS000" );
         });
@@ -96,16 +97,16 @@ describe('test instance of connectionFGW', function() {
     // ----------------
     describe('make instance with standard baudRate', function() {
         const con2 = new connectionFGW();
-        //console.log(con2)
+        //logger.info(con2)
         it('should return 57600', function() {
           assert.equal(con2.baudRate, 57600 );
         });
     });
     describe('make instance with baudRate 9600', function() {
         const con3 = new connectionFGW();
-        //console.log(con3)
+        //logger.info(con3)
         con3.baudRate = 9600
-        //console.log(con3)
+        //logger.info(con3)
         it('should return 9600', function() {
           assert.equal(con3.baudRate, 9600 );
         });
@@ -121,7 +122,7 @@ describe('Use connectionFGW to open connection', function() {
             describe('open connection', function() {
                 const con = new connectionFGW();
                 con.path = "/dev/ttyUSB0"
-                //console.log(con)
+                //logger.info(con)
                 con.openConnection()
             });
 		    done();
