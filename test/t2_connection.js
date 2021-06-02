@@ -2,13 +2,75 @@
 // testing the connection to the Eltako FGW14
 // ##########################################
 
+
+const logger = require('../lib/tools/myLogging');
+var counter = 0;
+
 try{
+
+    // Tests
+
+    //process.on('beforeExit', code => {
+    //  // Can make asynchronous calls
+    //  setTimeout(() => {
+    //    logger.info(`Process will exit with code: ${code}`)
+    //    process.exit(code)
+    //  }, 100)
+    //})
+    //
+    //process.on('uncaughtException', err => {
+    //  logger.info(`Uncaught Exception: ${err.message}`)
+    //  process.exit(1)
+    //})
+    //
+    //process.on('unhandledRejection', (reason, promise) => {
+    //  logger.info('Unhandled rejection at ', promise, `reason: ${err.message}`)
+    //  process.exit(1)
+    //})
+
+
+
+    // catch everything ( https://blog.heroku.com/best-practices-nodejs-errors )
+    // #################
+    function terminate (options = { coredump: false, timeout: 500 }) {
+      // Exit function
+      const exit = code => {
+        options.coredump ? process.abort() : process.exit(code)
+      }
+
+      return (code, reason, counter) => (err, promise) => {
+        counter = counter + 1;
+        logger.info( 'ErrorReason:' + counter + ',' + reason)
+        if (err && err instanceof Error) {
+        // Log error information, use a proper logging library here :)
+        logger.info( err.message + err.stack)
+        }
+
+        // Attempt a graceful shutdown
+        setTimeout(exit, options.timeout).unref()
+      };
+    };
+
+    const exitHandler = terminate({
+      coredump: false,
+      timeout: 500
+    });
+
+    process.on('uncaughtException', exitHandler(1, 'Unexpected Error', counter));
+    process.on('unhandledRejection', exitHandler(1, 'Unhandled Promise', counter));
+    process.on('SIGTERM', exitHandler(0, 'SIGTERM', counter));
+    process.on('SIGINT', exitHandler(0, 'SIGINT', counter));
+
+    // #################
+
+
+
+
     // load requires
     const connectionFGW = require('../lib/tools/connectionFGW');
     var assert = require('assert');
     var fs = require('fs');
     var testConnection = false;     // preset not too test the connection live
-    const logger = require('../lib/tools/myLogging');
 
     // information of file
     describe('in file t2_connection.js #########################################################', function() {
