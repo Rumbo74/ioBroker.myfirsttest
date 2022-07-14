@@ -16,12 +16,15 @@
     "type": "git",
     "url": "https://github.com/Rumbo74/ioBroker.myfirsttest"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "@iobroker/adapter-core": "^2.4.0",
     "serialport": "^9.0.1",
     "shelljs": "^0.8.5",
     "usb": "^1.6.5"
   },
+  "deprecated": false,
+  "description": "my first adapter ever",
   "devDependencies": {
     "@iobroker/testing": "^2.4.2",
     "@types/chai": "^4.2.15",

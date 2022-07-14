@@ -16,8 +16,29 @@
 	<!-- Load our own files -->
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script type="text/javascript" src="words.js"></script>
+	<script type="text/javascript" src="components.js"></script>
 
 	<script type="text/javascript">
+
+		/**
+		 * Get available serial ports and add them to dropdown. If possible the port will be preselected.
+		 * @param {object} settings - The adapter settings object
+		 */
+		function getComPorts(settings) {
+			sendTo(null, 'listSerial', null,  (list) => {
+				if (!list || !list.result) {
+					return;
+				}
+				list = list.result;
+
+				fillSelect('#serialport_PORT', list);
+
+				$('#serialport_PORT.value').val(settings.serialport_PORT).select();
+				$('#serialport_BAUDRATE.value').val(settings.serialport_BAUDRATE).select();
+
+			});
+		}
+
 		// This will be called by the admin adapter when the settings page loads
 		function load(settings, onChange) {
 			// example: select elements with id=key and class=value and insert value
@@ -38,6 +59,10 @@
 						;
 				}
 			});
+
+			// read the actual port of this machine and update the drop down list
+			getComPorts(settings);
+
 			onChange(false);
 			// reinitialize all the Materialize labels on the page if you are dynamically adding inputs:
 			if (M) M.updateTextFields();
@@ -66,28 +91,74 @@
 <body>
 
 	<div class="m adapter-container">
-
+		<!-- Navbar -->
 		<div class="row">
-			<div class="col s12 m4 l2">
-				<img src="myfirsttest.png" class="logo">
+			<div class="col s12">
+				<ul class="tabs">
+					<li class="tab col s2"><a href="#tab-devices"  class="translate active">Devices</a></li>
+					<li class="tab col s2"><a href="#tab-main"  class="translate active">Settings</a></li>
+					<li class="tab col s2"><a href="#tab-sponsors"  class="translate active">Sponsors</a></li>
+				</ul>
+			</div>
+
+			<!-- Devices Tab -->
+			<div id="tab-devices" class="col s12 page">
+				<div class="row">
+					<div class="col s12 m4 l2">
+						<img src="myfirsttest.png" class="logo">
+					</div>
+				</div>
+			</div>
+
+			<!-- Settings Tab -->
+			<div id="tab-main" class="col s12 page">
+				<div class="row">
+					<div class="col s12 m4 l2">
+						<img src="myfirsttest.png" class="logo">
+					</div>
+				</div>
+
+				<div class="row">
+					<div id="options-serialport_PORT-div" class="input-field col s8 m4 l3">
+						<select id="serialport_PORT" class="text value save" type="text" ></select>
+						<label for="serialport_PORT" class="translate">Serielle Schnittstelle</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div id="info-serialport_PORT-div" class="label col s8 m4 l3">
+						<label class="translate">Damit ein Port erkannt werden kann<br>
+							muss der FGW14-USB bereits mit diesem Computer verbunden sein.<br>
+							Evtl. diese Konfigseite neu aufrufen um erneut zu suchen!<br>
+							___________________________________________________________<br></label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div id="options-serialport_BAUDRATE-div" class="input-field col s8 m4 l3">
+						<input id="serialport_BAUDRATE" class="value save" size="6" type="number">
+						<label for="serialport_BAUDRATE" class="translate">Baudrate der Schnittstelle</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<div id="info-serialport_BAUDRATE-div" class="label col s8 m4 l3">
+						<label class="translate">Folgende Auflistung der empfohlenen Werte der seriellen Baudrate<br>
+							- FAM auf Schalterstellung 1 = Baudrate auf 57600<br>
+							- FAM auf Schalterstellung 2 = Baudrate auf 9600</label>
+					</div>
+				</div>
+			</div>
+
+			<!-- Sponsors Tab -->
+			<div id="tab-sponsors" class="col s12 page">
+				<div class="row">
+					<div class="col s12 m4 l2">
+						<img src="myfirsttest.png" class="logo">
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<!-- Put your content here -->
-
-		<!-- For example columns with settings: -->
-		<div class="row">
-			<div class="col s6 input-field">
-				<input type="checkbox" class="value" id="option1" />
-				<label for="option1" class="translate">option1</label>
-			</div>
-
-			<div class="col s6 input-field">
-				<input type="text" class="value" id="option2" />
-				<label for="option2" class="translate">option2</label>
-			</div>
-		</div>
-
 	</div>
 
 </body>

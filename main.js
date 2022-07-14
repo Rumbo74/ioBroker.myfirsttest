@@ -10,6 +10,19 @@ const utils = require("@iobroker/adapter-core");
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
+//const SerialPort = require('serialport');
+const connectionFGW = require('./lib/tools/connectionFGW');
+const os = require('os');
+const fs = require('fs');
+const path = require('path');
+
+const PLATFORM = os.platform();
+
+// define variables   // end of function openConnection
+let AVAILABLE_PORTS = {};
+const con = new connectionFGW();
+//let SERIAL_PORT = null;
+
 
 class Myfirsttest extends utils.Adapter {
 
@@ -24,8 +37,14 @@ class Myfirsttest extends utils.Adapter {
 		this.on("ready", this.onReady.bind(this));
 		this.on("stateChange", this.onStateChange.bind(this));
 		// this.on("objectChange", this.onObjectChange.bind(this));
-		// this.on("message", this.onMessage.bind(this));
+		this.on("message", this.onMessage.bind(this));
 		this.on("unload", this.onUnload.bind(this));
+		this.on("exit", this.onUnload.bind(this));
+
+		//error handling code within middleware
+		this.on('uncaughtException', function(e) {
+							this.log.error('uncaughtException onReady test' + e);
+					});
 	}
 
 	/**
@@ -41,6 +60,8 @@ class Myfirsttest extends utils.Adapter {
 		// this.config:
 		this.log.info("config option1: " + this.config.option1);
 		this.log.info("config option2: " + this.config.option2);
+		this.log.info("config serial Port: " + this.config.serialport_PORT);
+		this.log.info("config baud rate serial Port: " + this.config.serialport_BAUDRATE);
 
 		/*
 		For every state in the system there has to be also an object of type state
@@ -86,6 +107,61 @@ class Myfirsttest extends utils.Adapter {
 
 		result = await this.checkGroupAsync("admin", "admin");
 		this.log.info("check group user admin group admin: " + result);
+
+		// // get the list of available serial ports. Needed for win32 systems.
+		// const ports = await SerialPort.list();
+		//
+		// this.log.info('actual Ports:' + ports);
+		//
+		// AVAILABLE_PORTS = ports.map(p => p.path);
+
+		// am Besten die Liste der Ports auch im connectionFGW machen
+
+// Lösugn siehe https://stackoverflow.com/questions/40884153/try-catch-blocks-with-async-await
+// 3 Simple Example mit "async function myFetch
+// https://stackoverflow.com/questions/40884153/try-catch-blocks-with-async-await
+// https://www.mariokandut.com/handling-errors-in-asynchronous-functions-node-js/
+// https://itnext.io/error-handling-with-async-await-in-js-26c3f20bc06a
+// https://www.valentinog.com/blog/throw-async/
+//
+// https://stackoverflow.com/questions/7310521/node-js-best-practice-exception-handling
+// https://www.joyent.com/node-js/production/design/errors
+// https://goldbergyoni.com/checklist-best-practices-of-node-js-error-handling/
+// https://www.zeolearn.com/magazine/nodejs-best-practices
+// https://www.toptal.com/nodejs/node-js-error-handling
+
+
+		// try to open serial port
+		try {
+			if ( this.config.serialport_PORT && ( this.config.serialport_PORT != "Choose" ) && this.config.serialport_BAUDRATE) {
+				var con = new connectionFGW( this.config.serialport_PORT, this.config.serialport_BAUDRATE );
+												
+				con.on('error', function(e) {
+									this.log.error('connectionFGW:' + e);
+							})
+
+
+				//
+				// SERIAL_PORT = new SerialPort(	this.config.serialport_PORT
+				// 															,{ baudRate: this.config.serialport_BAUDRATE}
+				// 															, err => {
+				// 																				if (err) {
+				// 																					this.log.error( 'SerialPort error: ' + err );
+				// 																				};
+				// 															});
+				// SERIALPORT_ESP3_PARSER = SERIAL_PORT.pipe(new SERIALPORT_PARSER_CLASS());
+				// await this.packetListenerSerial();
+				this.log.info('SerialPort started with port:' + this.config.serialport_PORT + '; baud:' + this.config.serialport_BAUDRATE );
+				this.log.info('SerialPort started with port:' + typeof( this.config.serialport_PORT ) + '; baud:' + typeof( this.config.serialport_BAUDRATE ));
+				this.log.info('SerialPort started with port:' + con.path + '; baud:' + con.baudRate );
+
+			} else if ( this.config.serialport_PORT == "Choose" ) {	// not a possible serial PORT
+				this.log.info('SerialPort can not start with port: ' + this.config.serialport_PORT );
+			}
+		} catch (e) {
+			this.log.error('onReady error "open serial port": ' + e);
+		}
+		this.log.info('complete ready...');
 	}
 
 	/**
@@ -99,7 +175,21 @@ class Myfirsttest extends utils.Adapter {
 			// clearTimeout(timeout2);
 			// ...
 			// clearInterval(interval1);
+			//
+			// if ( SERIAL_PORT !== null ) {
+			// 	if ( SERIAL_PORT.isOpen ) {
+			// 		SERIAL_PORT.close();
+			// 	}
+			// }
 
+			if ( con !== null ) {
+				if ( con.isOpen ) {
+					con.close();
+				}
+			}
+
+			this.setState('info.connection', false, true);
+			this.log.info('cleaned everything up...');
 			callback();
 		} catch (e) {
 			callback();
@@ -156,6 +246,138 @@ class Myfirsttest extends utils.Adapter {
 	// 	}
 	// }
 
+
+
+	/**
+	 * Some message was sent to this instance over message box. Used by email, pushover, text2speech, ...
+	 * Using this method requires "common.message ( "messagebox": true, )" property to be set to true in io-package.json
+	 * @param {ioBroker.Message} obj
+	 */
+	async onMessage(obj) {
+
+		this.log.info("onMessage gekommen")
+		this.log.info(obj.from);
+		this.log.info(obj.command);
+		this.log.info(obj.callback);
+		this.log.info(obj.message);
+
+		// responds to the adapter that sent the original message
+		function respond(response, that) {
+			if (obj.callback)
+				that.sendTo(obj.from, obj.command, response, obj.callback);
+		}
+		//
+		switch(obj.command){
+			case 'listSerial':
+				// enumerate serial ports for admin interface
+				try {
+					const ports = this.listSerial();
+					this.log.info(JSON.stringify(ports));
+					respond({ error: null, result: ports }, this);
+				} catch (e) {
+					respond({ error: e, result: ['Not available'] }, this);
+					this.log.error('onMessage error "listSerial": ' + e);
+				}
+				break;
+			case 'getManufacturerList':
+				respond(Enocean_manufacturer, this);
+				break;
+			case 'getEEPList':
+				respond(EEPList, this);
+				break;
+			case 'autodetect':
+				teachinMethod = {teachinMethod: codes.telegram_type[obj.message.teachin_method], name: obj.message.device, mfr: obj.message.mfr};
+				this.setState('gateway.teachin', {val: true, expire: 60});
+				if(teachinMethod.teachinMethod === 'C6'){
+					await this.makeControllerPostmaster();
+					await this.enableSmartACKteachin();
+				}
+				respond({ error: null, result: 'Ready' }, this);
+				break;
+			case 'newDevice':
+				new predifnedDeviceTeachIn(this, obj.message.device, obj.message.mfr, obj.message.id);
+				respond({ error: null, result: 'Ready' }, this);
+				break;
+			case 'getDevices': {
+				const devices = require('./lib/definitions/devices.json');
+				respond(devices, this);
+				break;
+			}
+			case 'setEEPs': {
+				await this.extendObjectAsync(obj.message.id, {
+					'native': {
+						eep: obj.message.eep
+					}
+				});
+				break;
+			}
+		}
+	}
+
+
+
+	// filter serial devices function filterSerialPorts(path) {
+	filterSerialPorts(path) {
+
+		// get only serial port names
+		if (!(/(tty(ACM|USB|AMA|MFD|Enocean|enocean|EnOcean|\.usbserial-)|rfcomm|(serial\/by-id))/).test(path)) return false;
+
+		return fs
+			.statSync(path)
+			.isCharacterDevice();
+	}
+
+	// list serial ports
+	listSerial() {
+		let result;
+
+		if (PLATFORM === 'linux' || PLATFORM === 'darwin') {
+			// Filter out the devices that aren't serial ports
+			const devDirName = '/dev';
+			const byIdDirName = '/dev/serial/by-id';
+
+			let ports, byId;
+			try {
+				ports = fs
+					.readdirSync(devDirName)
+					.map(function (file) {
+						return path.join(devDirName, file);
+					})
+					.filter(this.filterSerialPorts)
+					.map(function (port) {
+						return { path: port };
+					});
+			} catch (e) {
+				this.log.error('Cannot read "listSerial" 1: "' + devDirName + '": ' + e);
+				ports = [];
+			}
+
+			// only by DirName actually - erstmal nur die Ports im DirName ohne die Ports by ID
+			//
+			// try {
+			// 	byId = fs
+			// 		.readdirSync(byIdDirName)
+			// 		.map(function (file) {
+			// 			return path.join(byIdDirName, file);
+			// 		})
+			// 		.filter(this.filterSerialPorts)
+			// 		.map(function (port) {
+			// 			return { path: port };
+			// 		});
+			// } catch (e) {
+			// 	this.log.error('Cannot read "listSerial" 2: "' + byIdDirName + '": ' + e);
+			// }
+			// for(const i in byId){
+			// 	ports.push(byId[i]);
+			// }
+
+			result = ports.map(p => p.path);
+
+		} else if (PLATFORM === 'win32') {
+			result = AVAILABLE_PORTS;
+		}
+		return result;
+	}
 }
 
 // @ts-ignore parent is a valid property on module
