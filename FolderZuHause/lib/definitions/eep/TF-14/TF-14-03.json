@@ -1,0 +1,34 @@
+{
+    "eep": "TF-14-03",
+    "rorg_number": "0xF6",
+    "telegram": "RPS",
+    "func_number": "0x00",
+    "type_number": "0x00",
+    "type_title": "Heating relais mode",
+    "case": [
+        {
+            "datafield": [
+                {
+                    "data": "Mode",
+                    "shortcut": "MO",
+                    "bitoffs": "0",
+                    "bitsize": "8",
+                    "iobroker": {
+                        "role": "state",
+                        "type": "string",
+                        "read": true,
+                        "write": false
+                    },
+                    "value": {
+                        "if": [
+                            {"==": [{"var": "value"}, 112]}, "Normal mode",
+                            {"==": [{"var": "value"}, 80]}, "Night reduction",
+                            {"==": [{"var": "value"}, 48]}, "Reduced operation",
+                            {"==": [{"var": "value"}, 16]}, "OFF"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

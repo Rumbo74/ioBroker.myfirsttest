@@ -1,0 +1,2947 @@
+{
+  "AFRISO": {
+    "Temperature sensor FTM T": {
+      "EEP": ["A5-02-05"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "Temperature- and humidity sensor FTM TF": {
+      "EEP": ["A5-04-01"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    }
+  },
+  "ENOCEAN_GMBH": {
+    "EOSWA-W-EO": {
+      "EEP": ["A5-07-01"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'",
+          "2": "Press the 'Set' button (the one with the stroke) on the occupancy sensor."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken",
+          "2": "'Set' Taste (mit dem Strich) am Präsenzmelder drücken."
+        }
+      }
+    },
+    "EOSCA-W-EO": {
+      "EEP": ["A5-07-01"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'",
+          "2": "Press the 'Set' button (the one with the stroke) on the occupancy sensor."
+        },
+        "de": {
+          "1": " Auf 'Gerät Hinzufügen' klicken",
+          "2": "'Set' Taste (mit dem Strich) am Präsenzmelder drücken."
+        }
+      }
+    },
+    "PTM200": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "PTM210": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "PTM215": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    }
+  },
+  "ELTAKO": {
+    "F4HK14": {
+      "EEP": [ "TF-14-05",
+        "TF-14-03"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the channel. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'",
+          "3": "Use PCT14 to add ioBroker in function group 3",
+          "4": "Repeat for the other 3 channels."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID des Kanals zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Verwenden Sie PCT14, um ioBroker in Funktionsgruppe 3 hinzuzufügen.",
+          "4": "Vorgang für die anderen 3 Kanäle Wiederholen."
+        }
+      }
+    },
+    "F4PT": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "F4PT55": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "F4SR14-LED": {
+      "EEP": [
+        "TF-14-01",
+        "TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on F4SR14-LED. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the F4SR14-LED manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the other 3 channels."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am F4SR14-LED starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des F4SR14-LED lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für die anderen 3 Kanäle Wiederholen."
+        }
+      }
+    },
+    "FAFT60": {
+      "EEP": [
+        "D2-01-07"
+      ],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press LRN Button for 1 second."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": ""
+        }
+      }
+    },
+    "FAE14LPR": {
+      "EEP": [
+        "TF-14-03"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the channel. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'",
+          "3": "Start teach-in mode on FAE14LPR. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FAE14LPR manual.",
+          "4": "Repeat for the other ??? channels."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID des Kanals zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FAE14LPR starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FAE14LPR lesen.",
+          "4": "Vorgang für die anderen ??? Kanäle Wiederholen."
+        }
+      }
+    },
+    "FAE14SSR": {
+      "EEP": [
+        "TF-14-03"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the channel. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'",
+          "3": "Start teach-in mode on FAE14SSR. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FAE14SSR manual.",
+          "4": "Repeat for the other ??? channels."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID des Kanals zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FAE14SSR starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FAE14SSR lesen.",
+          "4": "Vorgang für die anderen ??? Kanäle Wiederholen."
+        }
+      }
+    },
+    "FAH60B": {
+      "EEP": ["TF-13-10"],
+      "autocreate": false,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FABH65S": {
+      "EEP": ["TF-13-13"],
+      "autocreate": false,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FAH65S": {
+      "EEP": ["TF-13-12"],
+      "autocreate": false,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FBH65": {
+      "EEP": ["TF-13-13"],
+      "autocreate": false,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FBH65S": {
+      "EEP": ["TF-13-13"],
+      "autocreate": false,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FDG14": {
+      "EEP": [
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'",
+          "3": "Start teach-in mode on FDG14. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FDG14 manual.",
+          "4": "Repeat for the other 7 groups."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FDG14 starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FDG14 lesen.",
+          "4": "Vorgang für die anderen 7 Gruppen Wiederholen."
+        }
+      }
+    },
+    "FDG71L": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FDG71L. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FDG71L manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the second channel."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FDG71L starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FDG71L lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für den zweiten Kanal Wiederholen."
+        }
+      }
+    },
+    "FFG7B (A5-14-09)": {
+      "EEP": [
+        "A5-14-09"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FFG7B (F6-10-00)": {
+      "EEP": [
+        "F6-10-00"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FFKB": {
+      "EEP": [
+        "D5-00-01",
+        "TF-13-08"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FFR61-230V": {
+      "EEP": [
+        "TF-13-18","TF-13-17"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Set the lower rotary switch to infinity and the upper one to LRN.",
+          "4": "Switch to the objects and send the command (CMD) 'CH 1 OFF'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Den unteren Drehschalter auf Unendlich und den oberen auf LRN stellen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'CH 1 OFF' senden."
+        }
+      }
+    },
+    "FFTE": {
+      "EEP": [
+        "TF-13-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FHD60SB": {
+      "EEP": ["TF-13-10"],
+      "autocreate": false,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FHF": {
+      "EEP": [
+        "F6-10-00"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FHK14": {
+      "EEP": [
+        "TF-14-03"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the channel. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'",
+          "3": "Start teach-in mode on FHK14. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FHK14 manual.",
+          "4": "Repeat for the other ??? channels."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID des Kanals zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FHK14 starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FHK14 lesen.",
+          "4": "Vorgang für die anderen ??? Kanäle Wiederholen."
+        }
+      }
+    },
+    "FIH65S": {
+      "EEP": ["TF-13-10"],
+      "autocreate": false,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FJ62/12-36V DC": {
+      "EEP": [
+        "TF-13-03",
+        "TF-13-04"
+      ],
+      "autocreate": true,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FJ62/12-36V DC. For more information, please read the FJ62/12-36V DC manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FJ62/12-36V starten. Für weitere informationen bitte die Anleitung des FJ62/12-36V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden."
+        }
+      }
+    },
+    "FJ62NP-230V": {
+      "EEP": [
+        "TF-13-03",
+        "TF-13-04"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FJ62/12-36V DC. For more information, please read the FJ62/12-36V DC manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FJ62/12-36V starten. Für weitere informationen bitte die Anleitung des FJ62/12-36V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden."
+        }
+      }
+    },
+    "FKF65": {
+      "EEP": ["TF-13-16"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Insert card."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Karte Einstecken."
+        }
+      }
+    },
+    "FKLD61": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FKLD61. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FKLD61 manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the second channel."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FKLD61 starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FKLD61 lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für den zweiten Kanal Wiederholen."
+        }
+      }
+    },
+    "FL62-230V": {
+      "EEP": [
+        "TF-13-11",
+        "TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FL62-230V. For more information, please read the FL62-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in', number 2."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FL62-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FL62-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in', nummer 2, senden."
+        }
+      }
+    },
+    "FL62NP-230V": {
+      "EEP": [
+        "TF-13-11",
+        "TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FL62NP-230V. For more information, please read the FL62NP-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in', number 2."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FL62NP-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FL62NP-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in', nummer 2, senden."
+        }
+      }
+    },
+    "FLD61": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FLD61. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FLD61 manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the second channel."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FLD61 starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FLD61 lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für den zweiten Kanal Wiederholen."
+        }
+      }
+    },
+    "FMMS44SB": {
+      "EEP": [
+        "D2-14-01"
+      ],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": true,
+      "help": {
+        "en":{
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FMMS44SB. For more information, please read the FMMS44SB manual."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FMMS44SB starten. Für weitere informationen bitte die Anleitung des FMMS44SB lesen."
+        }
+      }
+    },
+    "FMZ61-230V": {
+      "EEP": [
+        "TF-13-19","TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Set the lower rotary switch to (2) and the upper one to LRN.",
+          "4": "Switch to the objects and send the command (CMD) 'ON'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Den unteren Drehschalter auf (2) und den oberen auf LRN stellen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'ON' senden."
+        }
+      }
+    },
+    "FR62-230V": {
+      "EEP": [
+        "TF-13-11",
+        "TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FR62-230V. For more information, please read the FR62-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in', number 2."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FR62-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FR62-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in', nummer 2, senden."
+        }
+      }
+    },
+    "FR62NP-230V": {
+      "EEP": [
+        "TF-13-11",
+        "TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FR62NP-230V. For more information, please read the FR62NR-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in', number 2."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FR62NP-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FR62NP-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in', nummer 2, senden."
+        }
+      }
+    },
+    "FRW": {
+      "EEP": [
+        "TF-13-09"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FSB14": {
+      "EEP": [
+        "TF-14-04",
+        "TF-13-04"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FSB14. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FSB14 manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in', number 3."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FSB14 starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FSB14 lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in', nummer 3, senden."
+        }
+      }
+    },
+    "FSB61NP-230V": {
+      "EEP": [
+        "TF-13-03",
+        "TF-13-04"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FSB61NP-230V. For more information, please read the FSB61NP-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in', number 3."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FSB61NP-230V starten. Für weitere informationen bitte die Anleitung des FSB61NP-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in', nummer 3, senden."
+        }
+      }
+    },
+    "FSB71-230V": {
+      "EEP": [
+        "TF-13-03",
+        "TF-13-04"
+      ],
+      "autocreate": true,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FSB71-230V. For more information please read the manual of FSB71-230V."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FSB71-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FSB71-230V lesen."
+        }
+      }
+    },
+    "FSB71-24V": {
+      "EEP": [
+        "TF-13-03",
+        "TF-13-04"
+      ],
+      "autocreate": true,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FSB71-24V. For more information please read the manual of FSB71-24V."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FSB71-24V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FSB71-24V lesen."
+        }
+      }
+    },
+    "FSB71-2x-230V": {
+      "EEP": [
+        "TF-13-03",
+        "TF-13-04"
+      ],
+      "autocreate": true,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FSB71-2x-230V. For more information please read the manual of FSB71-2x-230V."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FSB71-2x-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FSB71-2x-230V lesen."
+        }
+      }
+    },
+    "FSG14/1-10V": {
+      "EEP": [
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FSG14/1-10V. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FSG14/1-10V manual."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FSG14/1-10V starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FSG14/1-10V lesen."
+        }
+      }
+    },
+    "FSG71/1-10V": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FSG71/1-10V. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FSG71/1-10V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the second channel."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FSG71/1-10V starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FSG71/1-10V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für den zweiten Kanal Wiederholen."
+        }
+      }
+    },
+    "FSR14-2x": {
+      "EEP": [
+        "TF-14-01",
+        "TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FSR14-2x. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FSR14-2x manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the second channel."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FSR14-2x starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FSR14-2x lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für den zweiten Kanal Wiederholen."
+        }
+      }
+    },
+    "FSR14-4x": {
+      "EEP": [
+        "TF-14-01",
+        "TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FSR14-4x. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FSR14-4x manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the other 3 channels."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FSR14-4x starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FSR14-4x lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für die anderen 3 Kanäle Wiederholen."
+        }
+      }
+    },
+    "FSR14SSR": {
+      "EEP": [
+        "TF-14-01",
+        "TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FSR14SSR. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FSR14SSR manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the second channel."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FSR14SSR starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FSR14SSR lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für den zweiten Kanal Wiederholen."
+        }
+      }
+    },
+    "FSR61/8-24V UC": {
+      "EEP": [
+        "TF-01-02",
+        "TF-14-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FSR61/8-24V UC. For more information please read the manual of FSR61/8-24V UC"
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FSR61/8-24V UC starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FSR61/8-24V UC lesen."
+        }
+      }
+    },
+    "FSR61-230V": {
+      "EEP": [
+        "TF-01-02",
+        "TF-14-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FSR61-230V. For more information please read the manual of FSR61-230V"
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FSR61-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FSR61-230V lesen."
+        }
+      }
+    },
+    "FSR61NP-230V": {
+      "EEP": [
+        "TF-01-02",
+        "TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FSR61NP-230V. For more information, please read the FSR61NP-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in (1)', number 3."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FSR61NP-230V starten. Für weitere informationen bitte die Anleitung des FSR61NP-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in (1)', nummer 3, senden."
+        }
+      }
+    },
+    "FSR70S-230V": {
+      "EEP": [
+        "TF-13-19","TF-14-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Set the lower rotary switch to 1.",
+          "4": "Switch to the objects and send the command (CMD) 'OFF'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Den unteren Drehschalter auf 1.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'OFF' senden."
+        }
+      }
+    },
+    "FSR71-2x-230V": {
+      "EEP": [
+        "TF-14-01"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FSR71-2x-230V. For more information please read the manual of FSR71-2x-230V"
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FSR71-2x-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FSR71-2x-230V lesen."
+        }
+      }
+    },
+    "FSR71NP-230V": {
+      "EEP": [
+        "TF-14-01"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FSR71NP-230V. For more information please read the manual of FSR71NP-230V"
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FSR71NP-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FSR71NP-230V lesen."
+        }
+      }
+    },
+    "FSR71NP-4x-230V": {
+      "EEP": [
+        "TF-14-01"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FSR71NP-4x-230V. For more information please read the manual of FSR71NP-4x-230V"
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FSR71NP-4x-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FSR71NP-4x-230V lesen."
+        }
+      }
+    },
+    "FSS12-12V-DC": {
+      "EEP": [
+        "A5-12-01"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FSUD-230V": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FSUD-230V. For more information, please read the FSUD-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in FSUD', number 5."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FSUD-230V starten. Für weitere informationen bitte die Anleitung des FSUD-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in FSUD', nummer 5, senden."
+        }
+      }
+    },
+    "FSVA-230V": {
+      "EEP": [
+        "A5-12-01"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FT55": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "FTA55D": {
+      "EEP": [
+        "TF-13-07",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FTA55D. For more information please read the manual of FTA55D."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FTA55D starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FTA55D lesen."
+        }
+      }
+    },
+    "FTA65D": {
+      "EEP": [
+        "TF-13-07",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FTA65D. For more information please read the manual of FTA65D."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FTA65D starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FTA65D lesen."
+        }
+      }
+    },
+    "FTA55J": {
+      "EEP": [
+        "TF-01-01",
+        "TF-13-04"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FTA55J. For more information please read the manual of FTA55J."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FTA55J starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FTA55J lesen."
+        }
+      }
+    },
+    "FTA65J": {
+      "EEP": [
+        "TF-01-01",
+        "TF-13-04"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FTA65J. For more information please read the manual of FTA65J."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FTA65J starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FTA65J lesen."
+        }
+      }
+    },
+    "FTA55L": {
+      "EEP": [
+        "TF-01-02",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FTA55L. For more information please read the manual of FTA55L."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FTA55L starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FTA55L lesen."
+        }
+      }
+    },
+    "FTA65L": {
+      "EEP": [
+        "TF-01-02",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FTA65L. For more information please read the manual of FTA65L."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FTA65L starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FTA65L lesen."
+        }
+      }
+    },
+    "FTK": {
+      "EEP": [
+        "D5-00-01",
+        "TF-13-08"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTKB-gr": {
+      "EEP": [
+        "D5-00-01",
+        "TF-13-08"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTKB-RW": {
+      "EEP": [
+        "D5-00-01",
+        "TF-13-08"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTKE": {
+      "EEP": [
+        "TF-13-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR65DSB (FHK)": {
+      "EEP": ["TF-13-14"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR65DSB (TF61)": {
+      "EEP": ["TF-13-15"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR55DSB (FHK)": {
+      "EEP": ["TF-13-14"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR55DSB (TF61)": {
+      "EEP": ["TF-13-15"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR65HB (FHK)": {
+      "EEP": ["TF-13-14"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR65HB (TF61)": {
+      "EEP": ["TF-13-15"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR55HB (FHK)": {
+      "EEP": ["TF-13-14"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR55HB (TF61)": {
+      "EEP": ["TF-13-15"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR65SB (FHK)": {
+      "EEP": ["TF-13-14"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR65SB (TF61)": {
+      "EEP": ["TF-13-15"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR55SB (FHK)": {
+      "EEP": ["TF-13-14"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTR55SB (TF61)": {
+      "EEP": ["TF-13-15"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTRF65HB (FHK)": {
+      "EEP": ["TF-13-14"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTRF65SB (FHK)": {
+      "EEP": ["TF-13-14"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FTRF65SB (TF61)": {
+      "EEP": ["TF-13-15"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FUD14": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FUD14. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FUD14 manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the second channel."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FUD14 starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FUD14 lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für den zweiten Kanal Wiederholen."
+        }
+      }
+    },
+    "FUD14/800W": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FUD14/800W. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FUD14/800W manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the second channel."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FUD14/800W starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FUD14/800W lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für den zweiten Kanal Wiederholen."
+        }
+      }
+    },
+    "FUD61NP-230V (>= 10/19)": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FUD61NP-230V. For more information please read the manual of FUD61NP-230V."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FUD61NP-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FUD61NP-230V lesen."
+        }
+      }
+    },
+    "FUD61NP-230V (< 10/19)": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FUD61NP-230V. For more information, please read the FUD61NP-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in FSUD', number 5."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FUD61NP-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FUD61NP-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in', nummer 4, senden."
+        }
+      }
+    },
+    "FUD61NPN-230V (>= 10/19)": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your FUD61NPN-230V. For more information please read the manual of FUD61NPN-230V."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am FUD61NPN-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FUD61NPN-230V lesen."
+        }
+      }
+    },
+    "FUD61NPN-230V (< 10/19)": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FUD61NPN-230V. For more information, please read the FUD61NPN-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in FSUD', number 5."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FUD61NPN-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des FUD61NPN-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in FSUD', nummer 5, senden."
+        }
+      }
+    },
+    "FUD71": {
+      "EEP": [
+        "TF-13-07",
+        "TF-13-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID. It consists of the base ID of the radio antenna module (e.g. FAM14) and the bus ID of the group. Base ID as decimal + Bus ID 1 = ID as decimal => converted to Hex. Example: (Hex: ffcae700) 4291487488 + 1 = 4291487489 => ffcae701",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on FUD71. (Tip: It is more convenient to set up with the PCT14 software) For more information, please read the FUD71 manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in'.",
+          "5": "Repeat the steps for the second channel."
+        },
+        "de": {
+          "1": "Geräte ID eintragen. Sie setzt sich aus der Basis ID des Funk-Antennenmodul (z.B. FAM14) und der Bus ID der Gruppe zusammen. Basis ID in Dezimal  + Bus ID = ID als Dezimal => umgewandelt in Hex. Beispiel: (Hex: ffcae700) 4291487488 +  1 = 4291487489 => ffcae701.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am FUD71 starten. (Tipp: Komfortabler ist die Einrichtung mit der Software PCT14) Für weitere informationen bitte die Anleitung des FUD71 lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in' senden.",
+          "5": "Vorgang für den zweiten Kanal Wiederholen."
+        }
+      }
+    },
+    "FWS61": {
+      "EEP": [
+        "TF-13-01"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "FWZ12": {
+      "EEP": [
+        "A5-12-01"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "TF-1FT": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "TF-2FT": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "TF-2FT55": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "TF-2ZT": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "TF-2ZT55": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "TF-4FT": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "TF-4FT55": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "TF-8FM": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "TF-TA55D": {
+      "EEP": [
+        "TF-13-07",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF-TA55D. For more information please read the manual of TF-TA55D."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF-TA55D starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF-TA55D lesen."
+        }
+      }
+    },
+    "TF-TA65D": {
+      "EEP": [
+        "TF-13-07",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF-TA65D. For more information please read the manual of TF-TA65D."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF-TA65D starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF-TA65D lesen."
+        }
+      }
+    },
+    "TF-TA55J": {
+      "EEP": [
+        "TF-01-01",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF-TA55J. For more information please read the manual of TF-TA55J."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF-TA55J starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF-TA55J lesen."
+        }
+      }
+    },
+    "TF-TA65J": {
+      "EEP": [
+        "TF-01-01",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF-TA65J. For more information please read the manual of TF-TA65J."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF-TA65J starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF-TA65J lesen."
+        }
+      }
+    },
+    "TF-TA55L": {
+      "EEP": [
+        "TF-01-02",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF-TA55L. For more information please read the manual of TF-TA55L."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF-TA55L starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF-TA55L lesen."
+        }
+      }
+    },
+    "TF-TA65L": {
+      "EEP": [
+        "TF-01-02",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF-TA65L. For more information please read the manual of TF-TA65L."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF-TA65L starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF-TA65L lesen."
+        }
+      }
+    },
+    "TF61D-230V": {
+      "EEP": [
+        "TF-13-07",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF61D-230V. For more information please read the manual of TF61D-230V."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF61D-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF61D-230V lesen."
+        }
+      }
+    },
+    "TF61J-230V": {
+      "EEP": [
+        "TF-01-01",
+        "TF-13-04"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF61J-230V. For more information please read the manual of TF61J-230V."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF61J-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF61J-230V lesen."
+        }
+      }
+    },
+    "TF61L-230V": {
+      "EEP": [
+        "TF-01-02",
+        "TF-13-05"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF61L-230V. For more information please read the manual of TF61L-230V."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF61L-230V starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF61L-230V lesen."
+        }
+      }
+    },
+    "TF61R-230V": {
+      "EEP": [
+        "TF-01-02",
+        "F6-02-02"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teach-in mode on TF61R-230V. For more information, please read the TF61R-230V manual.",
+          "4": "Switch to the objects and send the command (CMD) 'Teach-in (1)', number 3."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am TF61R-230V starten. Für weitere informationen bitte die Anleitung des TF61R-230V lesen.",
+          "4": "Zu den Objekten Wechseln und den Befehl (CMD) 'Teach-in (1)', nummer 3, senden."
+        }
+      }
+    },
+    "TF100D": {
+      "EEP": [
+        "TF-13-07",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF100D. For more information please read the manual of TF100D."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF100D starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF100D lesen."
+        }
+      }
+    },
+    "TF100L": {
+      "EEP": [
+        "TF-01-02",
+        "TF-13-05"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF100L. For more information please read the manual of TF100L."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF100L starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF100L lesen."
+        }
+      }
+    },
+    "TF100SSR": {
+      "EEP": [
+        "TF-01-02",
+        "F6-02-02"
+      ],
+      "autocreate": true,
+      "teachin_method": "MSC",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your TF100SSR. For more information please read the manual of TF100SSR."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am TF100SSR starten. Im Auslieferungszustand ist der Anlernmodus die ersten 2 Minuten aktiv, nachdem er am Strom angeschlossen wurde. Für weitere informationen bitte die Anleitung des TF100SSR lesen."
+        }
+      }
+    }
+  },
+  "HOPPE": {
+    "SecuSignal": {
+      "EEP": ["F6-10-00"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'"
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    }
+  },
+  "HORA": {
+    "SmartDrive MX": {
+      "EEP": [
+        "A5-20-04"
+      ],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your SmartDrive MX. For more information please read the manual of SmartDrive MX."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am SmartDrive MX starten. Für weitere informationen bitte die Anleitung des SmartDrive MX lesen."
+        }
+      }
+    }
+  },
+  "KIEBACK_AND_PETER": {
+    "MD15-FTL-HE": {
+      "EEP": [
+        "A5-20-01"
+      ],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your MD15-FTL-HE. For more information please read the manual of MD15-FTL-HE."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am MD15-FTL-HE starten. Für weitere informationen bitte die Anleitung des MD15-FTL-HE lesen."
+        }
+      }
+    },
+    "MD15-FTL-OV": {
+      "EEP": [
+        "A5-20-01"
+      ],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your MD15-FTL-OV. For more information please read the manual of MD15-FTL-OV."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am MD15-FTL-OV starten. Für weitere informationen bitte die Anleitung des MD15-FTL-OV lesen."
+        }
+      }
+    }
+  },
+  "MICROPELT": {
+    "MVA005": {
+      "EEP": [
+        "A5-20-06"
+      ],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your MVA005. For more information please read the manual of MVA005."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am MVA005 starten. Für weitere informationen bitte die Anleitung des MVA005 lesen."
+        }
+      }
+    }
+  },
+  "NODON": {
+    "Card Switch (CCS-2-1-01)": {
+      "EEP": ["F6-04-01"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Insert card."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Karte Einstecken."
+        }
+      }
+    },
+    "Door and Window sensor (SDO-2-1-05)": {
+      "EEP": ["D5-00-01"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your Door and Window sensor. For more information please read the manual of Door and Window sensor."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Tür- und Fensterkontakt starten. Für weitere informationen bitte die Anleitung des Tür- und Fensterkontakt lesen."
+        }
+      }
+    },
+    "Floor switch": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Taste betätigen."
+        }
+      }
+    },
+    "Micro Smart Plug (MSP-2-1-11)": {
+      "EEP": [
+        "D2-01-0E"
+      ],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your Micro Smart Plug. For more information please read the manual of Micro Smart Plug."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Micro Smart Plug starten. Für weitere informationen bitte die Anleitung des Micro Smart Plug lesen."
+        }
+      }
+    },
+    "Motion sensor (PIR-2-1-01 )": {
+      "EEP": ["A5-07-03"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your Motion sensor. For more information please read the manual of Motion sensor."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Bewegungsmelder starten. Für weitere informationen bitte die Anleitung des Bewegungsmelder lesen."
+        }
+      }
+    },
+    "Rollershutter (SIN-2RS-01)": {
+      "EEP": [
+        "D2-05-00"
+      ],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your Rollershutter. For more information please read the manual of Rollershutter."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Rollershutter starten. Für weitere informationen bitte die Anleitung des Rollershutter lesen."
+        }
+      }
+    },
+    "Soft Remote": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "Temperature sensor (STP-2-1-05)": {
+      "EEP": ["A5-02-05"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your Temperature sensor. For more information please read the manual of Temperature sensor."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Temperatursensor starten. Für weitere informationen bitte die Anleitung des Temperatursensor lesen."
+        }
+      }
+    },
+    "Temperature and Humidity sensor (STPH-2-1-05)": {
+      "EEP": ["A5-04-01"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your Temperature and Humidity sensor. For more information please read the manual of Temperature and Humidity sensor."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Temperatur- und Luftfeuchtigkeitssensor starten. Für weitere informationen bitte die Anleitung des Temperatur- und Luftfeuchtigkeitssensor lesen."
+        }
+      }
+    },
+    "Wall Switch": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    }
+  },
+  "OPUS": {
+    "GN-BH63AP-pw": {
+      "EEP": ["TF-13-13"],
+      "autocreate": false,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    }
+  },
+  "OVENTROP": {
+    "R-Tronic RT B (A5-10-02)": {
+      "EEP": ["A5-10-02"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your R-Tronic RT B. For more information please read the manual of R-Tronic RT B."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am R-Tronic RT B starten. Für weitere informationen bitte die Anleitung des R-Tronic RT B lesen."
+        }
+      }
+    },
+    "R-Tronic RT B (A5-10-03)": {
+      "EEP": ["A5-10-03"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your R-Tronic RT B. For more information please read the manual of R-Tronic RT B."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am R-Tronic RT B starten. Für weitere informationen bitte die Anleitung des R-Tronic RT B lesen."
+        }
+      }
+    },
+    "R-Tronic RT B (A5-10-04)": {
+      "EEP": ["A5-10-04"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your R-Tronic RT B. For more information please read the manual of R-Tronic RT B."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am R-Tronic RT B starten. Für weitere informationen bitte die Anleitung des R-Tronic RT B lesen."
+        }
+      }
+    },
+    "R-Tronic RT B (A5-10-06)": {
+      "EEP": ["A5-10-06"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your R-Tronic RT B. For more information please read the manual of R-Tronic RT B."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am R-Tronic RT B starten. Für weitere informationen bitte die Anleitung des R-Tronic RT B lesen."
+        }
+      }
+    }
+  },
+  "PHEA": {
+    "Easyclick sender": {
+      "EEP": ["F6-02-02"],
+      "autocreate": true,
+      "teachin_method": "RPS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Press any key of the switch."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Irgendeine Taste des Tasters betätigen."
+        }
+      }
+    },
+    "451 FU-EBI PF o.T.": {
+      "EEP": ["D2-01-07"],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your actuator. For more information please read the manual of the actuator."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Aktor starten. Für weitere informationen bitte die Anleitung des Aktors lesen."
+        }
+      }
+    }
+  },
+  "TELEFUNKEN": {
+    "Plug actuator (SES FS-EO)": {
+      "EEP": [
+        "D2-01-08"
+      ],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your plug actuator. For more information please read the manual of plug actuator."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Funktionsstecker starten. Für weitere informationen bitte die Anleitung des Funktionsstecker lesen."
+        }
+      }
+    },
+    "Motion detector BM1": {
+      "EEP": ["A5-08-02"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    }
+  },
+  "THERMOKON": {
+    "SAB05": {
+      "EEP": [
+        "A5-20-01"
+      ],
+      "autocreate": true,
+      "teachin_method": "UTE",
+      "id_offset": true,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your SAB05. For more information please read the manual of SAB05."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am SAB05 starten. Für weitere informationen bitte die Anleitung des SAB05 lesen."
+        }
+      }
+    },
+    "SR04": {
+      "EEP": [
+        "A5-02-05"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "SR04 rH": {
+      "EEP": [
+        "A5-04-01"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "SR04 P": {
+      "EEP": [
+        "A5-10-03"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "SR04 S, FS5": {
+      "EEP": [
+        "A5-10-07"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "SR04 PT": {
+      "EEP": [
+        "A5-10-05"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "SR04 PS, FS5": {
+      "EEP": [
+        "A5-10-04"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "SR04 PMS": {
+      "EEP": [
+        "A5-10-06"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "SR04 PST, FS5": {
+      "EEP": [
+        "A5-10-01"
+      ],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    }
+  },
+  "TRIO2SYS": {
+    "OUTDOOR -30/+50°C TEMPERATURE SENSOR": {
+      "EEP": ["A5-02-13"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your Temperature sensor. For more information please read the manual of Temperature sensor."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Temperatur sensor starten. Für weitere informationen bitte die Anleitung des Temperatur sensors lesen."
+        }
+      }
+    }
+  },
+  "VIESSMANN": {
+    "Raumthermostat 7554508501032100": {
+      "EEP": ["A5-10-20"],
+      "autocreate": true,
+      "teachin_method": "4BS",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Click on 'Add Device'.",
+          "2": "Start teachin mode on your Raumthermostat. For more information please read the manual of Raumthermostat."
+        },
+        "de": {
+          "1": "Auf 'Gerät Hinzufügen' klicken.",
+          "2": "Anlernmodus am Raumthermostat starten. Für weitere informationen bitte die Anleitung des Raumthermostat lesen."
+        }
+      }
+    },
+    "Temperature sensor 7554507": {
+      "EEP": ["A5-02-05"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    },
+    "Temperature- and humidity sensor 7554951": {
+      "EEP": ["A5-04-01"],
+      "autocreate": false,
+      "teachin_method": "none",
+      "id_offset": false,
+      "help": {
+        "en": {
+          "1": "Enter device ID.",
+          "2": "Click on 'Add Device'."
+        },
+        "de": {
+          "1": "Geräte ID eintragen.",
+          "2": "Auf 'Gerät Hinzufügen' klicken."
+        }
+      }
+    }
+  },
+  "X_VIRTUAL": {
+    "Switch": {
+      "EEP": ["X1-01-01"],
+      "autocreate": false,
+      "teachin_method": "RPS",
+      "id_offset": true,
+      "broadcast": true,
+      "help": {
+        "en": {
+          "1": "Enter an ID. Start with id ffffffff and count up (Hex decimal) for each virtual device.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teachin mode on your Device. For more information please read the manual for the device.",
+          "4": "Go to objects and send a command (CMD)"
+        },
+        "de": {
+          "1": "Geräte ID eingeben. Beginnend mit ffffffff, für jedes weitere Virtuelle Gerät wird die ID Hochgezählt (Hex decimal).",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am Gerät starten. Für weitere informationen bitte die Anleitung des Geräts lesen.",
+          "4": "Zu den Objekten wechseln und einen Befehl senden (CMD)"
+        }
+      }
+    },
+    "Room operating panel (A5-10-06)": {
+      "EEP": ["X1-01-02"],
+      "autocreate": false,
+      "teachin_method": "4BS",
+      "id_offset": true,
+      "broadcast": true,
+      "help": {
+        "en": {
+          "1": "Enter an ID. Start with id ffffffff and count up (Hex decimal) for each virtual device.",
+          "2": "Click on 'Add Device'.",
+          "3": "Start teachin mode on your Device. For more information please read the manual for the device.",
+          "4": "Go to objects and send a Teach-in command (CMD)"
+        },
+        "de": {
+          "1": "Geräte ID eingeben. Beginnend mit ffffffff, für jedes weitere Virtuelle Gerät wird die ID Hochgezählt (Hex decimal).",
+          "2": "Auf 'Gerät Hinzufügen' klicken.",
+          "3": "Anlernmodus am Gerät starten. Für weitere informationen bitte die Anleitung des Geräts lesen.",
+          "4": "Zu den Objekten wechseln und einen Teach-in Befehl senden (CMD)"
+        }
+      }
+    }
+  }
+}

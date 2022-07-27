@@ -1,0 +1,44 @@
+{
+    "eep": "F6-10-00",
+    "rorg_number": "0xF6",
+    "telegram": "RPS",
+    "func_number": "0x10",
+    "type_number": "0x00",
+    "type_title": "Window Handle",
+    "case": [
+        {
+            "datafield": [
+                {
+                    "data": "Window open",
+                    "shortcut": "WIN",
+                    "bitoffs": "0",
+                    "bitsize": "8",
+                    "iobroker": {
+                        "role": "switch",
+                        "type": "boolean",
+                        "read": true,
+                        "write": false
+                    },
+                    "value": {
+                            "!==": [ { "var": "value" }, 240 ]
+                    }
+                },
+                {
+                    "data": "Window tilt",
+                    "shortcut": "WINT",
+                    "bitoffs": "0",
+                    "bitsize": "8",
+                    "iobroker": {
+                        "role": "switch",
+                        "type": "boolean",
+                        "read": true,
+                        "write": false
+                    },
+                    "value": {
+                        "===": [ { "var": "value" }, 208 ]
+                    }
+                }
+            ]
+        }
+    ]
+}
