@@ -1,0 +1,92 @@
+{
+  "_from": "github:Jey-Cee/ioBroker.enocean#e2f5bc2d60337b3712e0d6d7dfb93fabd13738f3",
+  "_id": "iobroker.enocean@0.8.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/iobroker.enocean",
+  "_phantomChildren": {
+    "@serialport/bindings-cpp": "10.7.0",
+    "@serialport/bindings-interface": "1.2.2",
+    "@serialport/parser-packet-length": "10.3.0",
+    "@serialport/parser-slip-encoder": "10.3.0",
+    "@serialport/parser-spacepacket": "10.3.0",
+    "@types/node": "17.0.14"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "Jey-Cee/ioBroker.enocean#e2f5bc2d60337b3712e0d6d7dfb93fabd13738f3",
+    "rawSpec": "Jey-Cee/ioBroker.enocean#e2f5bc2d60337b3712e0d6d7dfb93fabd13738f3",
+    "saveSpec": "github:Jey-Cee/ioBroker.enocean#e2f5bc2d60337b3712e0d6d7dfb93fabd13738f3",
+    "fetchSpec": null,
+    "gitCommittish": "e2f5bc2d60337b3712e0d6d7dfb93fabd13738f3"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:Jey-Cee/ioBroker.enocean#e2f5bc2d60337b3712e0d6d7dfb93fabd13738f3",
+  "_spec": "Jey-Cee/ioBroker.enocean#e2f5bc2d60337b3712e0d6d7dfb93fabd13738f3",
+  "_where": "/opt/iobroker",
+  "author": {
+    "name": "Jey Cee",
+    "email": "jey-cee@live.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jey-cee/ioBroker.enocean/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@iobroker/adapter-core": "2.6.0",
+    "@serialport/parser-byte-length": "10.3.0",
+    "json-logic-js": "2.0.2",
+    "serialport": "10.4.0"
+  },
+  "deprecated": false,
+  "description": "Connects EnOcean devices via USB/Serial devices with TCM300 Chips",
+  "devDependencies": {
+    "@alcalzone/release-script": "^3.5.9",
+    "@alcalzone/release-script-plugin-iobroker": "^3.5.9",
+    "@alcalzone/release-script-plugin-license": "^3.5.9",
+    "@iobroker/adapter-dev": "^1.0.0",
+    "@iobroker/testing": "^3.0.1",
+    "@types/chai": "^4.3.1",
+    "@types/chai-as-promised": "^7.1.5",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.0.2",
+    "@types/proxyquire": "^1.3.28",
+    "@types/sinon": "^10.0.0",
+    "@types/sinon-chai": "^3.2.5",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^7.26.0",
+    "mocha": "^8.3.2",
+    "proxyquire": "^2.1.3",
+    "sinon": "^10.0.0",
+    "sinon-chai": "^3.6.0",
+    "xml2json": "^0.12.0"
+  },
+  "homepage": "https://github.com/jey-cee/ioBroker.enocean",
+  "keywords": [
+    "EnOcean",
+    "ioBroker",
+    "Love"
+  ],
+  "license": "MIT",
+  "main": "main.js",
+  "name": "iobroker.enocean",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jey-Cee/ioBroker.enocean.git"
+  },
+  "scripts": {
+    "lint": "eslint",
+    "release": "release-script",
+    "test": "npm run test:js && npm run test:package",
+    "test:integration": "mocha test/integration --exit",
+    "test:js": "mocha --config test/mocharc.custom.json \"{!(node_modules|test)/**/*.test.js,*.test.js,test/**/test!(PackageFiles|Startup).js}\"",
+    "test:package": "mocha test/package --exit",
+    "test:unit": "mocha test/unit --exit",
+    "translate": "translate-adapter"
+  },
+  "version": "0.8.3"
+}

@@ -1,0 +1,31 @@
+{
+  "frequency": {
+    "0x00": "315 Mhz",
+    "0x01": "868.3 Mhz",
+    "0x02": "902.875 Mhz",
+    "0x03": "925 Mhz",
+    "0x04": "928 Mhz",
+    "0x20": "2.4 Ghz"
+  },
+  "protocol": {
+    "0x00": "ERP1",
+    "0x01": "ERP2",
+    "0x10": "802.15.4",
+    "0x30": "Long Range"
+  },
+  "telegram_type": {
+    "RPS": "F6",
+    "1BS": "D5",
+    "4BS": "A5",
+    "VLD": "D2",
+    "MSC": "D1",
+    "ADT": "A6",
+    "UTE": "UTE",
+    "SM_LRN_REQ": "C6",
+    "SM_LRN_ANS": "C7",
+    "SM_REC": "A7",
+    "SYS_EX": "C5",
+    "SEC": "30",
+    "SEC_ENCAPS": "31"
+  }
+}

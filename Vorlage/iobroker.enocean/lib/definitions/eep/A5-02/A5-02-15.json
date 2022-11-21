@@ -1,0 +1,28 @@
+{
+  "eep": "A5-02-15",
+  "rorg_number": "0xA5",
+  "telegram": "4BS",
+  "func_number": "0x02",
+  "type_number": "0x15",
+  "type_title": "Temperature Sensor Range -10°C to +70°C",
+  "bidirectional": false,
+  "objects": {
+    "preDefined": ["TMP"]
+  },
+  "case": [
+    {
+      "send": false,
+    "datafield": [
+      {
+        "data": "Temperature -10...70°C",
+        "shortcut": "TMP",
+        "bitoffs": "16",
+        "bitsize": "8",
+        "value": {
+          "+": [ { "*": [ { "-": [ { "var": "value" }, -255 ] }, -0.3137 ] }, -10 ]
+        },
+        "decimals": 2
+      }
+    ]
+  }]
+}

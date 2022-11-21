@@ -1,0 +1,258 @@
+{
+  "common": {
+    "name": "enocean",
+    "version": "0.8.3",
+    "news": {
+      "0.8.3": {
+        "en": "fix TTT and TT handling in TF-14-04 (Eltako FSB14 and similar)\nremove RT from TF-14-04 (Eltako FSB14 and similar)",
+        "de": "tTT- und TT-Handling in TF-14-04 (Eltako FSB14 und ähnliche)\nrT von TF-14-04 entfernen (Eltako FSB14 und ähnliche)",
+        "ru": "исправить TTT и TT обработки в TF-14-04 (Eltako FSB14 и аналогичный)\nудалить RT из TF-14-04 (Eltako FSB14 и аналогичный)",
+        "pt": "corrigir TTT e TT manipulação em TF-14-04 (Eltako FSB14 e similar)\nremover RT de TF-14-04 (Eltako FSB14 e similar)",
+        "nl": "herstel TT en TT in TF-14-04 (Eltako FSB14)\nverwijder RT van TF-14-04 (Eltako FSB14)",
+        "fr": "correction de la manipulation du TTT et du TT au TF-14-04 (Eltako FSB14 et similaire)\nretirer RT du TF-14-04 (Eltako FSB14 et similaire)",
+        "it": "correzione TTT e TT gestione in TF-14-04 (Eltako FSB14 e simili)\nrimuovere RT da TF-14-04 (Eltako FSB14 e simili)",
+        "es": "fijar TTT y TT en TF-14-04 (Eltako FSB14 y similar)\nquitar RT de TF-14-04 (Eltako FSB14 y similar)",
+        "pl": "tTT i TT są obsługiwane w TF-14-04 (Eltako FSB14 i podobne)\ntF-14-04 (Eltako FSB14 i podobny)",
+        "zh-cn": "fix TF-14-04(EltakoFSB14和类似)的技术转让和技术转让处理\n摘自TF-14-04(EltakoFSB14和类似)"
+      },
+      "0.8.2": {
+        "en": "Fix: Wrong or missing Base ID for gateway",
+        "de": "Fix: Falsche oder fehlende Basis-ID für Gateway",
+        "ru": "Исправление: Неправильный или отсутствует Базовый ID для шлюза",
+        "pt": "Correção: Identificação de base errada ou ausente para gateway",
+        "nl": "Verkeerde of vermiste Base ID voor gateway",
+        "fr": "Fix: ID de base faux ou manquant pour passerelle",
+        "it": "Fix: ID base sbagliato o mancante per il gateway",
+        "es": "Fijación: ID de base equivocado o faltante para la puerta de entrada",
+        "pl": "Fix: Wrong or missing BaseID for gateway (ang.)",
+        "zh-cn": "Fix:Wrong or缺失的基地开发网"
+      },
+      "0.8.1": {
+        "en": "Fix: Wrong or missing Base ID for gateway",
+        "de": "Fix: Falsche oder fehlende Basis-ID für Gateway",
+        "ru": "Исправление: Неправильный или отсутствует Базовый ID для шлюза",
+        "pt": "Correção: Identificação de base errada ou ausente para gateway",
+        "nl": "Verkeerde of vermiste Base ID voor gateway",
+        "fr": "Fix: ID de base faux ou manquant pour passerelle",
+        "it": "Fix: ID base sbagliato o mancante per il gateway",
+        "es": "Fijación: ID de base equivocado o faltante para la puerta de entrada",
+        "pl": "Fix: Wrong or missing BaseID for gateway (ang.)",
+        "zh-cn": "Fix:Wrong or缺失的基地开发网"
+      },
+      "0.8.0": {
+        "en": "added EIMSIG EM-USE-00 & EM-FSGE-00\nadded Kieback & Peter RBW322-FTL\nadded MICROPELT MVA002\nadded EEP A5-14-07\nadded Traveled Time & Time to travel objects to TF-14-04 (FSB14)\nadded EnOcean Pi & FAM-USB (ESP3 Firmware) as choice in admin\nadded translation for object names\nchange teachin method for Kieback and Peter MD15-FTL-HE\ncheck on startup if all objects for existing devices are exists, if not create them\nfix D2-10-01 sending configuration message",
+        "de": "eIMSIG EM-USE-00 & EM-FSGE-00\nkieback & Peter RBW322-FTL\nmICROPELT MVA002\neEP A5-14-07\ngereist Zeit & Zeit, um Objekte in TF-14-04 (FSB14) zu reisen\nenOcean Pi & FAM-USB (ESP3 Firmware) als Wahl in admin\nübersetzung hinzugefügt für objektnamen\nänderungslehre für Kieback und Peter MD15-FTL-HE\nüberprüfen sie beim start, ob alle objekte für bestehende geräte vorhanden sind, wenn sie sie nicht erstellen\nd2-10-01 senden Konfigurationsnachricht",
+        "ru": "добавлено EIMSIG EM-USE-00 & EM-FSGE-00\nдобавлено Kieback & Peter RBW322-FTL\nдобавлено MICROPELT MVA002\nдобавлено EEP A5-14-07\nдобавлено Traveled Time & Time для перемещения объектов в TF-14-04 (FSB14)\nдобавлено EnOcean Pi & FAM-USB (ESP3 Firmware) в качестве выбора в админе\nдобавлен перевод на названия объектов\nизменить метод обучения для Kieback и Peter MD15-FTL-HE\nпроверить на запуск, если все объекты для существующих устройств существуют, если их не создают\nисправить D2-10-01 отправка сообщение конфигурации",
+        "pt": "adicionado EIMSIG EM-USE-00 & EM-FSGE-00\nadicionado Kieback & Peter RBW322-FTL\nadicionado MICROPELT MVA002\nadicionado EEP A5-14-07\nadicionado Traveled Time & Time para viajar objetos para TF-14-04 (FSB14)\nadicionado EnOcean Pi & FAM-USB (ESP3 Firmware) como escolha em admin\ntradução adicionada para nomes de objetos\nmétodo de ensino de mudança para Kieback e Peter MD15-FTL-HE\nverificar na inicialização se todos os objetos para dispositivos existentes estão existentes, se não criá-los\ncorrigir mensagem de configuração de envio D2-10-01",
+        "nl": "eIMSIG EM-USE-00\nvoegde Kieback toe aan Peter RBW322-TL\nmICROPELT MVA002\neEP A5-14-07\nvertaling:\nvoegde Enocean Pi 'Fam-USB' toe als keuze in adminministratie\nvertaald voorwerpnamen\nveranderingsmethode voor Kieback en Peter MD15-FTL-H\ncontroleer of alle objecten voor bestaande apparaten bestaan, als ze ze niet creëren\nvertaling:",
+        "fr": "eIMSIG EM-USE-00 & EM-FSGE-00\nkieback & Peter RBW322-FTL\nmICROPELT MVA002\neEP A5-14-07\najouté Temps de voyage > Voyage d'objets vers TF-14-04 (FSB14)\najouté EnOcean Pi & FAM-USB (ESP3 Firmware) comme choix dans admin\ntraduction ajoutée pour les noms d'objets\nméthode de changement d'enseignement pour Kieback et Peter MD15-FTL-HE\nvérifier le démarrage si tous les objets pour les périphériques existants existent, sinon les créer\ncorrection du message de configuration D2-10-01",
+        "it": "aggiunto EIMSIG EM-USE-00 & EM-FSGE-00\naggiunto Kieback & Peter RBW322-FTL\naggiunto MICROPELT MVA002\naggiunto EEP A5-14-07\naggiunto Tempo e tempo di viaggio per oggetti di viaggio a TF-14-04 (FSB14)\naggiunto EnOcean Pi & FAM-USB (ESP3 Firmware) come scelta in admin\naggiunta di traduzione per i nomi degli oggetti\ncambiamento metodo di insegnamento per Kieback e Peter MD15-FTL-HE\ncontrollare l'avvio se tutti gli oggetti per i dispositivi esistenti sono esistenti, se non crearli\ncorreggere D2-10-01 inviando messaggio di configurazione",
+        "es": "añadido EIMSIG EM-USE-00 & EM-FSGE-00\nañadido Kieback & Peter RBW322-FTL\nañadido MICROPELT MVA002\neEP A5-14-07\nañadido Tiempo de viaje > Tiempo para viajar objetos a TF-14-04 (FSB14)\nañadido EnOcean Pi & FAM-USB (ESP3 Firmware) como opción en admin\ntraducción agregada para nombres de objetos\nmétodo de enseñanza de cambio para Kieback y Peter MD15-FTL-HE\ncomprobar la puesta en marcha si todos los objetos para los dispositivos existentes existen, si no crearlos\nfijar D2-10-01 enviar el mensaje de configuración",
+        "pl": "eIMSIGEM-USE-00 & EM-FSGE-00 (ang.)\nkieback & Peter RBW322-FTL\nmICROPEEP\neEP A5-14-07 (ang.)\ndodano czas i czas podróży do TF-14-04 (FSB14)\nenOcean Pi & FAM-USB (ESP3 Firmware) jako wybór w adminach\ntłumaczenie nazw obiektów\nmetoda ta uczy Kiebacka i Petera MD15-FTL-HE\nw przypadku, gdy istnieją wszystkie obiekty dla istniejących urządzeń, nie mogą ich stworzyć\nnaprawa D2-10-01",
+        "zh-cn": "增 编\n增加基松和彼得·RBW322-FT\n海地人权研究所\n增加EEPA5-14-07\n旅行时间和时间增加至TF-14-04(FSB14)\n增聘了POcean Pi和FAM-USB(ESP3 Firmware)作为专注的选择。\n增列物体名称译本\nb. 修改教学方法\n如果存在所有现有装置的物体,如果不制造这些物体,就开始进行检查。\nfix D2-10-01传送信息"
+      },
+      "0.7.1": {
+        "en": "increase timeout for response time from gateway\nchange base id for dummy gateway info (effects Eltako FGW14)\nchange EEP for TF-TAx5J\nupdate FSR61-230V (>10/14) help text\nupdate PSC 234 help text\nupdate TF61L-230V help text\nupdate help for Eltako FSR14-2/4x\nfix Teachin for Eltako FAFT60",
+        "de": "zeit für die antwortzeit von gateway erhöhen\nänderung der Basis id für Dummy Gateway info (Effekte Eltako FGW14)\neEP für TF-TAx5J ändern\nupdate FSR61-230V (>10/14) Hilfetext\npSC 234 Hilfetext aktualisieren\ntF61L-230V Hilfetext aktualisieren\nupdate Hilfe für Eltako FSR14-2/4x\nfix Teachin für Eltako FAFT60",
+        "ru": "увеличить timeout для времени отклика от шлюза\nизменение базы id для dummy Gateway info (эффекты Eltako FGW14)\nизменить EEP для TF-TAx5J\nобновление FSR61-230V (>10/14) текст помощи\nобновление PSC 234 текст помощи\nобновление TF61L-230V текст помощи\nобновление помощь для Элтако ФСР14-2/4x\nисправить Teachin для Eltako FAFT60",
+        "pt": "aumentar o tempo de resposta do gateway\nmudança base id para dummy gateway info (efeitos Eltako FGW14)\nmudança EEP para TF-TAx5J\natualização FSR61-230V (>10/14) ajuda texto\natualização PSC 234 ajuda texto\natualizar texto de ajuda TF61L-230V\najuda de atualização para Eltako FSR14-2/4x\ncorrigir Teachin para Eltako FAFT60",
+        "nl": "verhoging van de tijd van de poort\nquality over Quantity (QoQ) Releases Vertaling:\nverander EEP voor TFTAx5 J\nvertaling:\nvertaling:\nvertaling TF61L-230V bericht\nvertaling: Eltako FSR14-2-4\nles voor Eltako FAFT60",
+        "fr": "augmenter le temps de réponse de passerelle\nchange base id for dummy gateway info (effects Eltako FGW14)\neEP pour TF-TAx5J\nmettre à jour FSR61-230V (ACIA10/14) aide le texte\nmettre à jour PSC 234 aide texte\nmettre à jour le texte de l'aide TF61L-230V\nmettre à jour l'aide pour Eltako FSR14-2/4x\ncorrection de Teachin pour Eltako FAFT60",
+        "it": "aumentare il timeout per il tempo di risposta dal gateway\ncambiare base id per informazioni di gateway fittizio (effetti Eltako FGW14)\ncambiamento EEP per TF-TAx5J\naggiornamento FSR61-230V (>10/14) testo di aiuto\naggiornamento PSC 234 aiuto testo\naggiornamento TF61L-230V aiuto testo\naiuto di aggiornamento per Eltako FSR14-2/4x\ncorrezione Teachin per Eltako FAFT60",
+        "es": "aumentar el tiempo de respuesta de la puerta de entrada\ncambio de la base id para la información de la puerta del muñeco (efectos Eltako FGW14)\ncambio EEP para TF-TAx5J\nactualizar FSR61-230V ( prenda10/14) ayuda texto\nactualización PSC 234 ayuda texto\nactualización TF61L-230V ayuda texto\nayuda de actualización para Eltako FSR14-2/4x\nteachin para Eltako FAFT60",
+        "pl": "upływ czasu na czas reakcji z portalu\nzmiana bazowa id dla wiadomości bramkowej (efekty Eltako FGW14)\nzmiana EEP dla TF-TAx5J\nadaptacja FSR61-230V (>10/14)\npSC 234\naktualizacja TF61L-230V pozwala na użycie tekstu\npomoc dla aktualizacji Eltak FSR14-2/4x\nreakcja dla Eltako FAFT60",
+        "zh-cn": "a. 从速公路增加反应时间\nf. 制冷网(ffects Eltako FGW14)\nb. 改革过渡联邦政府-TAx5J\n更新的FSR61-230V(10/14)有助于案文\n更新的PSC234有助于案文\na. 最新资料\n最新帮助 Eltako FSR14-2/4x\nfix Teachin EltakoFA60"
+      },
+      "0.7.0": {
+        "en": "added ELTAKO FGW14-USB as possible Gateway (Please read the notes in readme for FGW14-USB)\nadded PEHA 452 FU-EBIM JR o.T.\nadded EUROTRONIC Stella E\nadded SIEGENIA senso secure\nadded new Eltako MSC Teachin Telegram for FSR71-2x\nadded state for window to F6-10-00\nupdated settings page \nfix HORA SmartDrive MX teachin\nfix A5-20-01 CMD default value string to number",
+        "de": "ELTAKO FGW14-USB als mögliches Gateway hinzugefügt (Bitte beachten Sie die Hinweise in Readme für FGW14-USB)\nhinzugefügt PEHA 452 FU-EBIM JR o.T.\nEUROTRONIC Stella E hinzugefügt\nSIEGENIA senso secure hinzugefügt\nneues Eltako MSC Teachin Telegramm für FSR71-2x hinzugefügt\nZustand für Fenster zu F6-10-00 hinzugefügt\naktualisierte Einstellungsseite\nEinlernen des HORA SmartDrive MX behoben\nKorrigieren Sie A5-20-01 CMD-Standardwertzeichenfolge in Zahl",
+        "ru": "добавлен ELTAKO FGW14-USB в качестве возможного шлюза (пожалуйста, прочитайте примечания в файле readme для FGW14-USB)\nдобавлен PEHA 452 FU-EBIM JR o.T.\nдобавлен ЕВРОТРОНИК Stella E\nдобавлен SIEGENIA senso secure\nдобавлен новый Eltako MSC Teachin Telegram для FSR71-2x\nдобавлено состояние окна на F6-10-00\nобновленная страница настроек\nисправить обучение HORA SmartDrive MX\nисправить строку значения по умолчанию CMD A5-20-01 на число",
+        "pt": "adicionado ELTAKO FGW14-USB como possível Gateway (Por favor, leia as notas no readme para FGW14-USB)\nadicionado PEHA 452 FU-EBIM JR o.T.\nadicionado EUROTRONIC Stella E\nadicionado SIEGENIA senso seguro\nadicionado novo Eltako MSC Teachin Telegram para FSR71-2x\nestado adicionado para janela para F6-10-00\npágina de configurações atualizada\ncorrigir o ensino do HORA SmartDrive MX\ncorrija a string de valor padrão do CMD A5-20-01 para o número",
+        "nl": "ELTAKO FGW14-USB toegevoegd als mogelijke gateway (lees de opmerkingen in readme voor FGW14-USB)\ntoegevoegd PEHA 452 FU-EBIM JR o.T.\nEUROTRONIC Stella E . toegevoegd\ntoegevoegd SIEGENIA senso secure\nnieuw Eltako MSC Teachin Telegram toegevoegd voor FSR71-2x\nstatus toegevoegd voor venster naar F6-10-00\nbijgewerkte instellingenpagina\nrepareer HORA SmartDrive MX aanleren\nrepareer A5-20-01 CMD standaardwaarde string naar nummer",
+        "fr": "ajouté ELTAKO FGW14-USB comme passerelle possible (veuillez lire les notes dans le fichier readme pour FGW14-USB)\najouté PEHA 452 FU-EBIM JR o.T.\najouté EUROTRONIC Stella E\najouté SIEGENIA senso secure\najout du nouveau télégramme Eltako MSC Teachin pour FSR71-2x\nétat ajouté pour la fenêtre à F6-10-00\npage des paramètres mise à jour\ncorrection de l'apprentissage du HORA SmartDrive MX\ncorrection de la chaîne de valeur par défaut A5-20-01 CMD en nombre",
+        "it": "aggiunto ELTAKO FGW14-USB come possibile Gateway (si prega di leggere le note in readme per FGW14-USB)\naggiunto PEHA 452 FU-EBIM JR o.T.\nha aggiunto EUROTRONIC Stella E\naggiunto SIEGENIA senso secure\naggiunto un nuovo telegramma Eltako MSC Teachin per FSR71-2x\nstato aggiunto per la finestra a F6-10-00\npagina delle impostazioni aggiornate\ncorreggere l'apprendimento HORA SmartDrive MX\nfix A5-20-01 stringa del valore predefinito CMD su numero",
+        "es": "agregó ELTAKO FGW14-USB como posible puerta de enlace (lea las notas en el archivo Léame para FGW14-USB)\nañadido PEHA 452 FU-EBIM JR o.T.\nañadido EUROTRONIC Stella E\nañadido SIEGENIA senso seguro\nañadido nuevo Eltako MSC Teachin Telegram para FSR71-2x\nestado agregado para la ventana a F6-10-00\npágina de configuración actualizada\ncorregir la enseñanza de HORA SmartDrive MX\ncorrija la cadena de valor predeterminado A5-20-01 CMD en el número",
+        "pl": "dodano ELTAKO FGW14-USB jako możliwe Gateway (Proszę przeczytać uwagi w readme dla FGW14-USB)\ndodano PEHA 452 FU-EBIM JR o.T.\ndodano EUROTRONIC Stella E\ndodano SIEGENIA senso secure\ndodano nowy telegram nauczania Eltako MSC dla FSR71-2x\ndodano stan okna do F6-10-00\nzaktualizowana strona ustawień\nnaprawić nauczanie HORA SmartDrive MX\nnapraw domyślny ciąg wartości A5-20-01 CMD na liczbę",
+        "zh-cn": "添加 ELTAKO FGW14-USB 作为可能的网关（请阅读 FGW14-USB 自述文件中的说明）\n添加了 PEHA 452 FU-EBIM JR o.T.\n添加 EUROTRONIC Stella E\n添加了 SIEGENIA senso 安全\n为 FSR71-2x 添加了新的 Eltako MSC 教学电报\n将窗口状态添加到 F6-10-00\n更新的设置页面\n修复 HORA SmartDrive MX 教学\n将 A5-20-01 CMD 默认值字符串修复为数字"
+      },
+      "0.6.4": {
+        "en": "fix split Eltako FSVA-230V & FSR61VA into to sepperate devices for control and measurement",
+        "de": "Fix Split Eltako FSVA-230V & FSR61VA in getrennte Geräte für Steuerung und Messung",
+        "ru": "исправить разделение Eltako FSVA-230V и FSR61VA на отдельные устройства для управления и измерения",
+        "pt": "corrigir dividir Eltako FSVA-230V e FSR61VA em dispositivos separados para controle e medição",
+        "nl": "fix split Eltako FSVA-230V & FSR61VA in aparte apparaten voor controle en meting",
+        "fr": "fixez les Eltako FSVA-230V et FSR61VA divisés en appareils séparés pour le contrôle et la mesure",
+        "it": "aggiustare la divisione Eltako FSVA-230V e FSR61VA in dispositivi separati per il controllo e la misurazione",
+        "es": "arreglar dividir Eltako FSVA-230V y FSR61VA en dispositivos separados para control y medición",
+        "pl": "napraw rozdzielenie Eltako FSVA-230V i FSR61VA na osobne urządzenia kontrolno-pomiarowe",
+        "zh-cn": "修复拆分 Eltako FSVA-230V 和 FSR61VA 以分离用于控制和测量的设备"
+      }
+    },
+    "title": "EnOcean",
+    "titleLang": {
+      "en": "EnOcean",
+      "de": "EnOcean",
+      "ru": "EnOcean",
+      "pt": "EnOcean",
+      "nl": "EnOcean",
+      "fr": "EnOcean",
+      "it": "EnOcean",
+      "es": "EnOcean",
+      "pl": "EnOcean",
+      "zh-cn": "EnOcean"
+    },
+    "desc": {
+      "en": "Connects EnOcean devices via USB/Serial devices with TCM300 Chips",
+      "de": "Verbindet EnOcean-Geräte über USB / Seriell-Geräte mit TCM300-Chips",
+      "ru": "Подключает устройства EnOcean через USB / последовательные устройства с чипами TCM300",
+      "pt": "Conecta dispositivos EnOcean via dispositivos USB / Serial com chips TCM300",
+      "nl": "Verbindt EnOcean-apparaten via USB / seriële apparaten met TCM300-chips",
+      "fr": "Connecte les appareils EnOcean via des appareils USB / série avec des puces TCM300",
+      "it": "Collega i dispositivi EnOcean tramite dispositivi USB / seriali con chip TCM300",
+      "es": "Conecta dispositivos EnOcean a través de dispositivos USB / serie con chips TCM300",
+      "pl": "Łączy urządzenia EnOcean za pośrednictwem urządzeń USB / szeregowych z chipami TCM300",
+      "zh-cn": "通过带有TCM300芯片的USB /串行设备连接EnOcean设备"
+    },
+    "authors": [
+      "Jey Cee <jey-cee@live.com>"
+    ],
+    "keywords": [
+      "EnOcean",
+      "Love"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "icon": "enocean.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/jey-cee/ioBroker.enocean/master/admin/enocean.png",
+    "readme": "https://github.com/jey-cee/ioBroker.enocean/blob/master/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "hardware",
+    "compact": true,
+    "connectionType": "local",
+    "dataSource": "poll",
+    "materialize": true,
+    "adminUI": {
+      "config": "materialize"
+    },
+    "messagebox": true,
+    "dependencies": [
+      {
+        "js-controller": ">=3.0.0"
+      }
+    ],
+    "installedFrom": "Jey-Cee/ioBroker.enocean#e2f5bc2d60337b3712e0d6d7dfb93fabd13738f3"
+  },
+  "native": {
+    "serialport": "",
+    "ser2net": false,
+    "ser2net-ip": "",
+    "ser2net-port": 2000,
+    "esp2Switch": true,
+    "gateway": ""
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "Device connected",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "gateway",
+      "type": "device",
+      "common": {
+        "role": "",
+        "name": "Gateway",
+        "type": "string",
+        "read": true,
+        "write": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "gateway.teachin",
+      "type": "state",
+      "common": {
+        "role": "state",
+        "name": "Teach in new devices",
+        "type": "boolean",
+        "read": true,
+        "write": true,
+        "def": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "gateway.lastID",
+      "type": "state",
+      "common": {
+        "role": "state",
+        "name": "Device ID from last received telegram",
+        "type": "string",
+        "read": true,
+        "write": false
+      },
+      "native": {}
+    },
+    {
+      "_id": "gateway.repeater",
+      "type": "channel",
+      "common": {
+        "name": "Repeater"
+      },
+      "native": {}
+    },
+    {
+      "_id": "gateway.repeater.mode",
+      "type": "state",
+      "common": {
+        "role": "state",
+        "name": "Repeater mode",
+        "type": "number",
+        "read": true,
+        "write": true,
+        "states": {
+          "0": "OFF",
+          "1": "ON",
+          "2": "SELECTIVE"
+        }
+      },
+      "native": {}
+    },
+    {
+      "_id": "gateway.repeater.level",
+      "type": "state",
+      "common": {
+        "role": "state",
+        "name": "Repeater level",
+        "type": "number",
+        "read": true,
+        "write": true,
+        "states": {
+          "0": "OFF",
+          "1": "1-level repeating",
+          "2": "2-level repeating"
+        }
+      },
+      "native": {}
+    }
+  ]
+}

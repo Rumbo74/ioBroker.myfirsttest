@@ -1,0 +1,173 @@
+/* You can delete those if you want. I just found them very helpful */
+* {
+	box-sizing: border-box
+}
+.m {
+	/* Don't cut off dropdowns! */
+	overflow: initial;
+}
+
+.m .modal-content {
+	width: 100%!important;
+}
+
+
+select {
+	height: auto!important
+}
+
+.m select {
+	display: block!important;
+}
+
+.lever {
+	z-index: -1;
+}
+
+.input-checkbox {
+	z-index: 10;
+}
+
+.input-checkbox > label, .input-checkbox > label > span {
+	z-index: -1;
+}
+
+.input-checkbox > label > input {
+	z-index: 1;
+}
+
+/* START Help Card */
+.card-title > div {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	margin-bottom: 10px;
+	padding-left: 0px!important;
+}
+/* END Help Card */
+
+/* START Tooltip*/
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+
+	/* Position the tooltip text - see examples below! */
+	position: absolute;
+	z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.tooltip-top {
+	bottom: 125%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip-top::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.tooltip-right {
+	top: -5px;
+	left: 125%;
+}
+
+.tooltip-right::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent #555 transparent transparent;
+}
+
+.tooltip-bottom {
+	top: 135%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip-bottom::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent #555 transparent;
+}
+
+.tooltip-left {
+	top: -5px;
+	bottom: auto;
+	right: 128%;
+}
+
+.tooltip-left::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	margin-top: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent #555;
+}
+/* END Tooltip */
+
+/* START Sponsors Tab */
+#sponsors-body {
+	margin-top: 15px!important;
+	padding-bottom: 25px!important;
+	background-color: white!important;
+}
+#sponsors-body > h2 {
+	text-align: center;
+	font-size: 2rem;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: black;
+}
+
+h4 {
+	background-color: rgba(0,0,0,.0)!important;
+}
+
+#sponsors-body > h4 {
+	margin-bottom: 0px!important;
+}
+
+#sponsors-body > p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+#sponsors-body > table {
+	margin-bottom: 3rem!important;
+}
+
+/* END Sponsors Tab */
+
